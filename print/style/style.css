@@ -1,0 +1,53 @@
+img.emoji {
+   height: 1em;
+   width: 1em;
+   margin: 0 .05em 0 .1em;
+   vertical-align: -0.1em;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.fixed table {
+  table-layout: fixed;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*
+body {
+   column-count: 2;
+   column-gap: 4em;
+}*/
+
+/*@page {
+    @bottom {
+        content: counter(page)
+    }
+}*/
+
+img {
+       width: 20em;
+}
+
+@media print {
+  .new-page {
+    page-break-before: always;
+  }
+}
