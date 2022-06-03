@@ -245,33 +245,69 @@ Ausschaltend
 
 
 
+1 spitz/scharf/stumpf
+2 ein/zweihändig
+3 Größe bzw. Länge
+    - Faustgroß
+    - Kurz
+    - Mittel
+    - Lang
+4 Leicht/Schwer
+5 istPulverwaffe?
+6 istBogen?
+7 Werfbar?
+
+## Meisterwaffen
+
+- Faustkampfwaffen (z.b. Schlagringe)       Stumpf, Faustgroß, Einhändig
+- Waffenlos                                 Stumpf, Faustgroß, Leicht
+
+- Säbel                                     Scharf, Einhändig, Kurz, Leicht, Werfbar
+- Kurzschwert                               Spitz, Einhändig, Kurz, Leicht, Werfbar
+- Handaxt                                   Scharf, Einhändig, Kurz, Schwer, Werfbar
+- Keule                                     Stumpf, Einhändig, Kurz, Schwer
+- Baton u.ä.                                Stumpf, Einhändig, Kurz, Ausgewogen
+- Langschwert                               Scharf/Spitz, Zweihändig, Mittel
+- Stäbe                                     Stumpf, Zweihändig, Mittel, Ausgewogen
+- Großwaffen (Axt, Hammer, etc.)            Scharf/Stumpf, Zweihändig, Mittel/Lang, Schwer
+- Speere                                    Spitz, Zweihändig, Lang, Ausgewogen, Werfbar
+
+- Rapier                                    Spitz, Einhändig, Mittel, Leicht
+
+- Muskete (mit Bayonett)                    Zweihändig, Kurz, Pulverwaffe, Ausgewogen
+- Bogen                                     Zweihändig, Bogen
 
 
+## Nebenwaffen
+
+- Parrierdolch                              Spitz, Einhändig, Faustgroß, Werfbar
+- Wurfwaffen (Messer u.ä.)                  Werfbar
+- Pistole                                   Stumpf, Einhändig, Faustgroß, Pulverwaffe
+- Schild
+- dualwield
+- Trickmeister (Wift random stuff aus taschen → Sand, Granaten, Seile, etc)
+
+&nbsp;      |Kurz                |Mittel                  |Lang
+------------|--------------------|------------------------|------------
+Leicht      |Säbel/Kurzschwert   |Rapier/Zweihandschwert  |Langschwert
+Ausgewogen  |Baton               |Stab                    |Speer
+Schwer      |Handaxt/Keule       |Zweihandaxt             |Langaxt
+
+Kurz → Einhand, Werfbar  
+Mittel → Zweihändig  
+Lang → Zweihand  
+
+Leicht → Spitz/Scharf  
+Ausgewogen → Stumpf/Spitz  
+Schwer → Stumpf/Scharf  
+
+Faustgroß → Einhändig, Stumpf/Spitz/Scharf, Werfbar  
+Pulverwaffe → Spitz    Einhändig: Faustgroß  
+Zweihändig: Ausgewogen, Kurz  
+Bogen → Spitz  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{!kampf-skill-tree.md!}
 
 
 
