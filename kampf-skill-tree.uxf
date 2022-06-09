@@ -640,4 +640,26 @@ Waffen</panel_attributes>
     <panel_attributes>Parrierdolch u.ä.</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>455</x>
+      <y>525</y>
+      <w>70</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Resourcen</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>427</x>
+      <y>497</y>
+      <w>42</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>40.0;40.0;10.0;10.0</additional_attributes>
+  </element>
 </diagram>

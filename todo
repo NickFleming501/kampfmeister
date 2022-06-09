@@ -2,11 +2,48 @@ Sachen die genauere Regeln haben sollen (vermutlich)
 [x] fallback generische regeln
 [x] Kampfsystem gegen andere Kampfkünstler
 [x] Kampfsystem gegen Handlanger
-[ ] Reise-/Erkundungsregeln
-[ ] faction-relation-ding
-[ ] Schiffskampf? oder andere Fahrzeuge
+[x] Reise-/Erkundungsregeln
+[x] faction-relation-ding
+[x] Schiffskampf? oder andere Fahrzeuge
 
 Charaktererstellung
 [x] Attribute → Fallbackgedöns
 [ ] Kampfkünste → vs Handlanger, vs Meister
 [ ] Profession → Reisen/Erkundung, Schiffsgedöns, Factions
+
+Weltkarten
+[ ] Alte Welt
+    [x] Fraktionen
+    [ ] Karte
+[ ] Neue Welt
+    [ ] Karte
+    [ ] Fraktionen
+
+[ ] Kampfskillbäume
+[ ] Reise/Erkundungsbaum
+[ ] Schiffsgedönsbaum
+[ ] Diplomatiebaum
+
+
+
+Leander:
+- Karten, Factions, Lore
+- Hex-Karten-Gedöns
+
+Felix:
+- Kampfskillbaum
+- Diplomatiebaum
+
+Lucas:
+- Schiffsgedönsbaum
+- Reise/Erkundungsbaum
+- (Fallback-Regeln können auch verwendet werden!)
+
+Tiefe/Menge Knoten Richtwerte:
+- Tiefe: ca 20
+- Knoten: ca 50 Knoten insgesamt im Baum (Kampfbaum x3)
+- Würfel/Extra-Symbole:
+    - Bei Tiefe 3 auf ca 5 Würfel
+    - Bei Tiefe 10 auf ca 10 Würfel
+    - Bei Tiefe 20 auf ca 15 Würfel
+

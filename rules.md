@@ -312,8 +312,12 @@ Bogen → Spitz
 
 
 
+{!reisen.md!}
 
 
+{!factions.md!}
+
+{!schiffzeug.md!}
 
 
 
