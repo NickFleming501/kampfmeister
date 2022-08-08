@@ -16,50 +16,73 @@ Ork Kultur(Grüne 'Riesen'(bis zu 3m) mit weißem Fell):
  sind große furchtlose Kämpfer
  sind scheiße viele
  Baustiel: Einfache Hütten('Ignluartig' aus Holz)/Iglos
+ Religion: 
+ 				- Schamanen als Religiöse Führer
+				- Gott schuff die Welt und bevölkerte sie mit 'seinesgleichen'(Orks), seine Geschwister waren neidisch auf sein Werk und veränderten es(Machten die Welt wärmer und nutzten ihre Macht um die Orks aus südlicheren Landen zu vertreiben) um es mit ihren eigenen Kreationen zu füllen.
 
 Die Zivilisierten Länder:
 Land 1:
  Auf dem Festland
  Hält linie gegen die Orks im Gebirge
  Standhaftigkeit (Berg)
- Bekannt für Baumeister
+ Leitgedanken: 
+ Bekannt für Baumeister & Eisenverarbeitung(Bergleute->Schmiede)
  Baustiel: verschnörkelte Steinhäuser z.t. in Berge gebaut(Höhlen mit aufwendigen Protalen, ...).
+ Religion: 		- Es gibt einen Gott der die Welt erbrach und seinen Kindern auftrug diese aufzuräumen.
+ 				- Die Kinder erschufen dann verschiedene Lebewesen die die Welt bevölkern sollen um für sie in der Welt zu agieren.
+				- Der älteste und weißeste der Kinder Gottes erschuf die Menschen(mit Geschick und Inteligenz), nachdem seine Geschwister bereits einige Tiere und Monster auf die Welt losließen um diese wieder zu bändigen da sie zum teil mehr chaos als Ordnung stifteten.
+				- später versuchten(z.t. mit erfolg) Einige der anderen Geschwister sich daran Menschen zu verführen vom rechten Pfad abzukommen (und versuchten offensichtlich auch die Leistung ihres großen Bruders zu imitieren indem sie Orks/... erschufen)
+				- Verschiedene Religionszweige/Subgruppierungen sind sich uneins wie die Meschen das Chaos ordnen sollen/was der 'große Auftrag' der Menschheit ist(von 'wir sollten die Ordnung beschützen und durch Freundlichkeit/Hilfsbereitschaft die Welt stückweise verbessern' bis hin zu 'Wir sollten alles Chaos/Ketzer einfach vernichten/bekehren notfalls mit Gewalt').
 
 Land 2:
  Auf dem Festland
  Hält linie gegen die Orks in einem schwer durchquerbarem Wald
  List (Dunkel)
+ Leitgedanken: 
  Bekannt für gute Schützen
  Baustiel: 'organisch' meist Holz angepasst an umgebung(z.t. auch Baumhäuser/erdhöhlen)
+ Religion: siehe oben
 
 Land 3:
  Auf dem Festland
  Hinter einem anderem Land
  Unterstützen Land 1 und 2 Regelmäßig mit Truppen.
  Mut (Kampf)
+ Leitgedanken: 
  Bekannt für Nahkämpfer
- Baustiel: einfach und funktional(meist zeigel)
+ Baustiel: einfach und funktional(meist Ziegel)
+ Religion: siehe oben
  
 Land 4:
  Auf einer Insel
  Blockieren mit ihere Flotte die von Ork eroberten Häfen
  Einfallsreichtum (sturm)
- Gute Handwerker/Flotte
- Baustiel: Fachwerk/Holzhäuser -> 'Meklenburgisch'
+ Leitgedanken: 
+ Gute Handwerker/Flotte/Tüftler/Wissenschaftler
+ Baustiel: Holzhäuser z.t. mit Schindel/Rieddächern -> 'Meklenburgisch'/'Schwedisch'
+ Religion: ?siehe oben?
 
 Land 5:
  In Sicherheit
  Versorgen andere Länder
  Charisma (Herz)
+ Leitgedanken: 
  Bekannt für Händler
  Baustiel: Aufwändige Fachwerkhäuser/Prunkbauten wer sichs leisten kann
+ Religion: siehe oben
  
 Land 6:
  Am nächsten an der Neuen Welt
  Haben neue Welt zuerst entdeckt
  Neugier (licht)
- Bekannt für Kartographen
+ Leitgedanken: Stetige Weiterentwicklung, (Geistige) Kontrolle in jeder Situation.
+ Bekannt für Kartographen & Philosophen/'Denker'
  Baustiel: einfache Steinbauten(Hölenartig) in der neuen Welt einfache Holzbauten???(Asiatisch angehaucht)??
+ Religion: Mehr esotherisch/budistisch
+				- weniger Fokus auf eine (götliche) Entstehungsgeschichte mehr darauf das 'Menschen durch inneren Frieden zu etwas größerem werden könnne'/ihre Grenzen überwinden können(durch z.b. Meditation).
+				- Wie die Welt entstanden ist ist nebensächlich es geht darum was wir aus ihr machen
+					-> Wir sollten versuchen möglichst friedlich mit der Welt & Einander zu koexistieren.
+					-> Wir sollten uns stetig weiterentwickeln(besser werden/Meisterschaft erlangen)(Wissenschaftlich/Geistig/Körperlich -> in allen Bereichen) => das Leben ist ein training um (im nächsten Leben) eine höhere Ebene der Existenz zu ereichen.
 
 Zeitleiste:
 	- 1311 - Start des Glaubenskriegs im Norden

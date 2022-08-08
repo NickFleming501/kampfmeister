@@ -6,18 +6,25 @@ Land 1:
 	'Zwerge', Eingeborene
 	?? (Berg)
 	Beten die 'Heiligen Berge'(Vulkane) an.
-	Siedlungen am Fuß/in der nähe von Vulkanen/Bergen
-	Steinbauten z.t. auch Höhlen
+	Siedlungen am Fuß/in/in der nähe von Vulkanen/Bergen
+	Steinbauten/Höhlen
 	In den Vulkanbergen selbst sind nur Heilige/Gesegnete erlaubt(vorallem wenn es darum geht Material abzutragen/abzubauen).
 	Höhere Höhlen(näher am Krater) sind Tempel
 	
 Land 2:
-	Tiermenschen, Eingeborene
+	Tiermenschen(Katzenartige), Eingeborene
 	?? (Herz)
+	Leben vorallem im Dschungel
+	Baumhäuser
+	Kultur
+		=> Stammes geselschaft
+		=> Schamanen/Häuptlinge
+		=> Einheit mit der Natur -> nehme nur das nötigste und gebe immer auch was zurück...
+		=> 'Baumknutscher' artig
 	
 Land 3:
 	Tiermenschen, Eingeborene
-	?? (licht)
+	?? (licht/wärme/ehrlichkeit/Gutheit)
 	
 Land 4:
 	Blutrünstige 'Elfen', Eingeborene
@@ -26,14 +33,26 @@ Land 4:
 	=> Große Monster können 'aufgehetzt' werden(schlagen dann in einem bestimmten Gebiet wild um sich)
 	=> Kleinere Monster werden z.t. kontroliert(z.b. als 'Zugpferde' für schiffe oder als Unterstützung im Kampf)
 	Hassen die neuen Eindringlinge(Piraten+Zivilisierte Länder)
+	Fleischfresser/gnadenlose Jäger
 
 Land 5:
 	Menschen?, Piraten, ausgestoßene/Verbrecher(bunte Mischung)
 	Tücke (Dunkel)
-	
+	Sammlung verschiedener unabhängiger Piratenmanschaften
+	Einzelne Stützpunkte die von 'Piratenfürsten' betrieben werden als sicherer Hafen für Piraten
+		-> Tortuga-mäßig
+	Insgesammt eher unorganisiert
+		
 Land 6:
 	Menschen, Piraten, ehemaliges Nordreich
 	?? (Kampf)
+	Sind vor den Orks in die NW geflüchtet
+	Versuchen in der NW irgendwie zu überleben
+	Relativ große Siedlungen die auch mehr oder weniger selbstversorgend sind.
+	Teilweise Handel mit anderen Piraten/unabhängigen aber eher nur die nötigsten Kontakte
+	Piraterie wird genutzt um einfacher an Rohstoffe ranzukommen
+		-> andere Kultur/Religion(Christentum<->Moslems/beziehung wie bei den Kreuzzügen) als die anderen Zivilisierten Länder
+		-> "Ihr habt uns nicht geholfen also helfen wir uns jetzt selbst"
 	
 	
 	
