@@ -44,48 +44,156 @@ Skilltree:
        |  + ⚡️⚡️ → ☀️
        + Einhändig: 🎲
        |+ EH: (🔂️) 2️⃣ → ❓
-       | + Einhändig: 🎲
-       | |+ EH: (🔂️) 2️⃣ → ❓
-       | | + EH & Leicht: (🔂️) 1️⃣1️⃣ → ⛈️⛈️
-       | | + EH & Ausgewogen: (🔂️) 1️⃣1️⃣ → 🏔️🏔️
-       | | + EH & Schwer: (🔂️) 1️⃣1️⃣ → ⚔️⚔️
-       | + Faustgroße Waffen können nach Wahl wie Kurze Waffen behandelt werden
-       | |+ Faustgroße Waffe: -🎲 +❤️❤️
-       | ||+ Zweimal Faustgroß: -🎲, beide Waffen würfeln separat
-       | || + <❤️>
-       | |+ Angriff ohne Waffe möglich (zählt als Faustgroße Waffe)
-       | | + [<geht zu "Zweimal Faustgroß: -🎲, beide Waffen würfeln separat">]
+       | + Einhändig & Kurz: 🎲
+       | |+ EH & Leicht: 🎲
+       | ||+ EH & Leicht & Passiv: 1️⃣1️⃣1️⃣ → 🌑 ODER 2️⃣ → 🌑 (Wahl bei Erlernen)
+       | |||+ EH & Leicht: 🎲
+       | ||| + EH & Leicht & Passiv: (🔂️) 🎲 → 🌑
+       | |||  + EH & Leicht: 🎲
+       | |||   + EH & Leicht & Passiv: 3️⃣️ → 🌑🌑
+       | |||    + EH & Leicht: 🌑
+       | |||     + EH & Leicht & Passiv: 1️⃣1️⃣ → 🌑
+       | |||      + EH & Leicht: 🌑
+       | ||+ EH & Leicht & Aktiv: 🌑🌑 → ❓
+       | || + EH & Leicht & Aktiv: "Blutende Wunde" 🌑🌑⚡️⚡️ → Normale Wunde, die nicht reduziert werden darf
+       | ||  + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
+       | ||   + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
+       | ||    + EH & Leicht & Aktiv: "Finte" 🌑🌑⚡️⚡️ → Gegner muss neu würfeln und darf neu Passiv eingesetzen (Vorherige Passive werde aufgehoben)
+       | ||     + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
+       | ||      + EH & Leicht & Aktiv: 🌑 → ❓
+       | ||       + EH & Leicht & Aktiv: "Zweiter Angriff" 🌑🌑🌑⚡️⚡️⚡️ → Zweiter Wurf nach Abschluss der Aktiven Phase, mit nur Aktiv
+       | |+ EH & Ausgewogen: 🎲
+       | ||+ EH & Ausgewogen & Passiv: 1️⃣1️⃣1️⃣ → 🏔️ ODER 2️⃣ → 🏔️ (Wahl bei Erlernen)
+       | |||+ EH & Ausgewogen: 🎲
+       | ||| + EH & Ausgewogen & Passiv: (🔂️) 🎲 → 🏔️
+       | |||  + EH & Ausgewogen: 🎲
+       | |||   + EH & Ausgewogen & Passiv: 3️⃣️ → 🏔️🏔️
+       | |||    + EH & Ausgewogen: 🏔️
+       | |||     + EH & Ausgewogen & Passiv: 1️⃣1️⃣ → 🏔️
+       | |||      + EH & Ausgewogen: 🏔️
+       | ||+ EH & Ausgewogen & Aktiv: 
+       | || + EH & Ausgewogen & Aktiv: 
+       | ||  + EH & Ausgewogen & Aktiv: 
+       | ||   + EH & Ausgewogen & Aktiv: 
+       | ||    + EH & Ausgewogen & Aktiv: 
+       | ||     + EH & Ausgewogen & Aktiv: 
+       | ||      + EH & Ausgewogen & Aktiv: 
+       | ||       + EH & Ausgewogen & Aktiv: 
+       | |+ EH & Schwer: 🎲
+       | | + EH & Schwer & Passiv: 1️⃣1️⃣1️⃣ → ⚔️ ODER 2️⃣ → ⚔️ (Wahl bei Erlernen)
+       | | |+ EH & Schwer: 🎲
+       | | | + EH & Schwer & Passiv: (🔂️) 🎲 → ⚔️
+       | | |  + EH & Schwer: 🎲
+       | | |   + EH & Schwer & Passiv: 3️⃣️ → ⚔️⚔️
+       | | |    + EH & Schwer: ⚔️
+       | | |     + EH & Schwer & Passiv: 1️⃣1️⃣ → ⚔️
+       | | |      + EH & Schwer: ⚔️
+       | | + EH & Schwer & Aktiv: (🔂️) ⚔️⚔️⚔️ → Gegner -⚔️
+       | |  + EH & Schwer & Aktiv: "Rüstungsbrecher" X+⚡️⚡️ → Wunde ignoriert Rüstung.
+       | |   + EH & Schwer & Aktiv: +⚡️ pro Runde
+       | |    + EH & Schwer & Aktiv: (🔂️) ⚔️⚔️ → Gegner -⚔️
+       | |     + EH & Schwer & Aktiv: "Narcosehammer" ⚔️⚔️⚔️⚡️⚡️⚡️ → Gegner -⚡️⚡️⚡️ (zählt zu 5⚡️ Limit) und -🎲🎲🎲 für nächsten Wurf
+       | |      + EH & Schwer & Aktiv: +⚡️ pro Runde, Energielimit wird auf 6⚡️ erhöht
+       | |       + EH & Schwer & Aktiv: (🔂️) ⚔️ → Gegner -⚔️
+       | |        + EH & Schwer & Aktiv: "Schädelspalter" ⚔️⚔️⚔️⚡️⚡️⚡️⚡️⚡️ → Tötet den Gegner. Punkt.
+       | + Faustgroße Waffe: -🎲 +❤️❤️
+       | |+ (Echt-)Kürzere Waffe als längste Waffe des Gegner: "Näher ran" (🔂️) ❤️❤️ → 🌑🏔️❤️⚔️⛈️☀️, Gegner kann für ⛈️ abwehren. Abgewehrtes zählt nicht zum (🔂️) Limit.
+       | | + Faustgroße Waffe & Passiv: 1️⃣1️⃣1️⃣ → ❤️ ODER 2️⃣ → ❤️ (Wahl bei Erlernen)
+       | | |+ Zweimal Faustgroß: "Dual Wielding" -🎲, beide Waffen würfeln separat
+       | | | + Faustgroße Waffe & Passiv: (🔂️) 🎲 → ❤️
+       | | |  + Faustgroße Waffe: 🎲
+       | | |   + Faustgroße Waffe & Passiv: 3️⃣️ → ❤️❤️
+       | | |    + Faustgroße Waffe: 🎲
+       | | |     + Faustgroße Waffe & Passiv: 1️⃣1️⃣ → ❤️
+       | | |      + Faustgroße Waffe: ❤️
+       | | + Angriff ohne Waffe möglich (zählt als Faustgroße Waffe)
+       | | |+ <Special>
+       | | | + 
+       | | |  + 
+       | | |   + <Special>
+       | | |    + 
+       | | |     + 
+       | | |      + <Special>
+       | | + <Messer>
+       | |  + <Special>
+       | |   + 
+       | |    + 
+       | |     + <Special>
+       | |      + 
+       | |       + 
+       | |        + <Special>
        | + Nebenhand: 🎲
-       |  + Einhändige Waffe kann geworfen werden
-       |  |+ 🌑 → Aufgesammelter Gegenstand kann sofort verwendet werden
+       |  + Gegenstand aus der Tasche kann sofort verwendet werden.
+       |  |+ Gehaltener Gegenstand: (🔂️) 🌑 → Gehaltener Gegenstand wird eingesetzt oder geworfen, Effekt abhängig von Gegenstand
+       |  | + Freie Nebenhand: (🔂️) Ein Gegenstand aus der Umgebung kann aufgehoben werden, falls kein bestimmter Gegenstand in der Nähe, wird ausgewürfelt¹
+       |  |  + Beim Würfeln freie Nebenhand: 🌑
        |  + Schild: Verteidigung +☀️☀️
        |  |+ Schild: Verteidigung +❓
+       |  | + Schild: Verteidigungsjoker wird verdoppelt
+       |  |  + Schild & Aktiv: "Schild-Bash" 🏔️⚡️⚡️ → Beliebiger Kampfteilnehmer -⚡️ (zählt zu 5⚡️ Limit) und -🎲🎲 für nächsten Wurf
        |  + [This node intentionally left blank]
        |  |+ Zweimal Kurz: -🎲🎲, beide Waffen würfeln separat
+       |  | + Zwei Kurze Waffen: (🔂️🔂️) 1 Symbol kann von einem Waffen-Würfelpool zum anderen verschoben werden.
+       |  |  + <Doppelschnetzler-Angriff>
        |  + Nebenhand Waffe: 🎲
        |   + Pistole: +🎲🎲🎲 für Schuss
-       |   |+ Pistole: Gegner → -☀️
+       |   |+ Pistole: Gegner -☀️
+       |   | + Pistole zählt als Faustgroße Nahkampfwaffe
        |   + Nebenhand Faustgroße Nahkampfwaffe: Bei Angriff plus ein nicht gewürfeltes Symbol
+       |    + Nebenhand Faustgroße Nahkampfwaffe: Bei Verteigung plus ein nicht gewürfeltes Symbol
+       |     + Nebenhand Faustgroße Nahkampfwaffe: ⛈️
        + Zweihändig: 🎲
         + ZH: (🔂️) 2️⃣ → 3️⃣️ (gleiches Symbol)
-         + ZH & Leicht: 🎲
-         |+ ZH & Leicht: +⛈️
-         | + ZH & Leicht & Mittel: (🔂️) ⛈️ → ❓
-         | + ZH & Leicht & Lang: 🎲
-         + ZH & Ausgewogen: 🎲
-         |+ ZH & Ausgewogen: +🏔️
-         | + ZH & Ausgewogen & Mittel: (🔂️) 🏔️ → ❓
-         | + ZH & Ausgewogen & Lang: 🎲
-         + ZH & Schwer: 🎲
-         |+ ZH & Schwer: +⚔️
-         | + ZH & Schwer & Mittel: (🔂️) ⚔️ → ❓
-         | + ZH & Schwer & Lang: 🎲
-         + Fernkampf möglich
-          + Fernkampf: 🎲
-           + Bogen: Gegner → -☀️☀️
-           + Pulverwaffe: Würfelanzahl für Schuss verdoppelt
-            + Pulverwaffe: Gegner → -☀️☀️
-            + Pulverwaffe kann als Kurze, Ausgewogene Waffe verwendet werden
+         + Reichweite
+         |+ Mittel
+         ||+ TODO
+         |+ Lang
+         | + TODO
+         + Waffentyp
+          + ZH & Leicht: 🎲
+          |+ ZH & Leicht: +⛈️
+          + ZH & Ausgewogen: 🎲
+          |+ ZH & Ausgewogen: +🏔️
+          + ZH & Schwer: 🎲
+          |+ ZH & Schwer: +⚔️
+          + Fernkampf möglich
+           + Fernkampf: 🎲
+            + Bogen: Gegner → -☀️☀️
+            + Pulverwaffe: Würfelanzahl für Schuss verdoppelt
+             + Pulverwaffe: Gegner → -☀️☀️
+             + Pulverwaffe kann als Kurze, Ausgewogene Waffe verwendet werden
+
+¹ Zufällige Gegenstände aus der Umgebung:
+
+Wurf | Gegenstand | Effekt
+-----|------------|--------
+🌑   | Sand       | Gegner verliert ein selbst gewähltes und ein vom Angreifer gewähltes Symbol
+🏔️   | Stein      | Leichte Wunde
+❤️   | Essen      | Der Gegner wirkt etwas wütender als zuvor
+⚔️   | Stock      | Gegner -⛈️, falls keine ⛈️ wählt der Angreifer ein anderes Symbol
+⛈️   | Stroh      | Es passiert nichts.
+☀️   | "Granate"\*| Gegner -☀️, falls keine ☀️ wählt der Angreifer ein anderes Symbol
+
+\* Sieht aus wie eine Granate, ist aber keine
+
+Temp (Fäuste & Messer)
+- Passivzweig (? → ❤️)
+ - Aktiv: "Näher ran" (🔂️) ❤️❤️ → 🌑🏔️❤️⚔️⛈️☀️, Gegner kann für ⛈️ abwehren. Abgewehrtes zählt nicht zum (🔂️) Limit.
+  - Zweimal Faustgroß: "Dual Wielding" -🎲, beide Waffen würfeln separat
+- Faust:
+    - Grapple
+    - Stumpf
+    - Entwaffnen
+    - Leute werfen
+    - Griffe (Bewegungsunfähig machen)
+- Messer:
+    - Stichschaden
+    - Stichschaden
+    - Stichschaden
+    - Stichschaden
+    - Stichschaden
+
+
 
 Temp (⚔️ = Hauptsymbol):
 

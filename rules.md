@@ -101,7 +101,7 @@ Kampfkünstler und Handlanger haben unterschiedliche Regeln.
 
 #### Kampfkünstler gegen Kampfkünstler
 
-1. (A würfelt und kann passiv einsetzen → nur am Anfang)
+1. (A würfelt → nur am Anfang)
 2. A wählt Ziel (mit letztem Wurf)
 3. B würfelt
 4. B kann passiv einsetzen
@@ -114,7 +114,7 @@ Kampfkünstler und Handlanger haben unterschiedliche Regeln.
 
 #### Kampfkünstler gegen Handlanger
 
-1. (K würfelt und kann passiv einsetzen → nur am Anfang)
+1. (K würfelt → nur am Anfang)
 2. K wählt Ziel (mit letztem Wurf) (HLG zählt als ein Ziel)
 3. HLG würfelt Einzeltyp-stat
 4. K kann aktiv einsetzen (gegen beliebige einzelne Handlanger aus der HLG)
