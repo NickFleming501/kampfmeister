@@ -22,12 +22,16 @@ Symbole:
 
     🔂️  Einmalig pro Wurf
 
+    Auf Gegner bezogen:
+    ❓ Selbstgewählt
+    1️⃣ Gegner wählt
+
 Skilltree:
 
     Start:
-    + 🎲🎲🎲, (🔂️🔂️🔂️) 1️⃣1️⃣ → ⚡️
-     + 🎲, Waffe: 🎲
-      + 🎲
+    + 🎲🎲, Waffe: 🎲, (🔂️🔂️🔂️) 1️⃣1️⃣ → ⚡️
+     + 🎲, Beide Hände belegt: 🎲
+      + 🎲, 
        + N⚡️ reduzieren eine Stufe N Wunde um 1
        |+ (🔂️🔂️🔂️🔂️🔂️) -🎲 → ⚡️
        | + 🌑 → ⚡️
@@ -43,10 +47,10 @@ Skilltree:
        | + ☀️ → ⚡️
        |  + ⚡️⚡️ → ☀️
        + Einhändig: 🎲
-       |+ EH: (🔂️) 2️⃣ → ❓
+       |+ 
        | + Einhändig & Kurz: 🎲
        | |+ EH & Leicht: 🎲
-       | ||+ EH & Leicht & Passiv: 1️⃣1️⃣1️⃣ → 🌑 ODER 2️⃣ → 🌑 (Wahl bei Erlernen)
+       | ||+ EH & Leicht & Passiv: 1️⃣1️⃣1️⃣ → 🌑
        | |||+ EH & Leicht: 🎲
        | ||| + EH & Leicht & Passiv: (🔂️) 🎲 → 🌑
        | |||  + EH & Leicht: 🎲
@@ -63,7 +67,7 @@ Skilltree:
        | ||      + EH & Leicht & Aktiv: 🌑 → ❓
        | ||       + EH & Leicht & Aktiv: "Zweiter Angriff" 🌑🌑🌑⚡️⚡️⚡️ → Zweiter Wurf nach Abschluss der Aktiven Phase, mit nur Aktiv
        | |+ EH & Ausgewogen: 🎲
-       | ||+ EH & Ausgewogen & Passiv: 1️⃣1️⃣1️⃣ → 🏔️ ODER 2️⃣ → 🏔️ (Wahl bei Erlernen)
+       | ||+ EH & Ausgewogen & Passiv: 1️⃣1️⃣1️⃣ → 🏔️
        | |||+ EH & Ausgewogen: 🎲
        | ||| + EH & Ausgewogen & Passiv: (🔂️) 🎲 → 🏔️
        | |||  + EH & Ausgewogen: 🎲
@@ -80,7 +84,7 @@ Skilltree:
        | ||      + EH & Ausgewogen & Aktiv: 
        | ||       + EH & Ausgewogen & Aktiv: 
        | |+ EH & Schwer: 🎲
-       | | + EH & Schwer & Passiv: 1️⃣1️⃣1️⃣ → ⚔️ ODER 2️⃣ → ⚔️ (Wahl bei Erlernen)
+       | | + EH & Schwer & Passiv: 1️⃣1️⃣1️⃣ → ⚔️
        | | |+ EH & Schwer: 🎲
        | | | + EH & Schwer & Passiv: (🔂️) 🎲 → ⚔️
        | | |  + EH & Schwer: 🎲
@@ -98,7 +102,7 @@ Skilltree:
        | |        + EH & Schwer & Aktiv: "Schädelspalter" ⚔️⚔️⚔️⚡️⚡️⚡️⚡️⚡️ → Tötet den Gegner. Punkt.
        | + Faustgroße Waffe: -🎲 +❤️❤️
        | |+ (Echt-)Kürzere Waffe als längste Waffe des Gegner: "Näher ran" (🔂️) ❤️❤️ → 🌑🏔️❤️⚔️⛈️☀️, Gegner kann für ⛈️ abwehren. Abgewehrtes zählt nicht zum (🔂️) Limit.
-       | | + Faustgroße Waffe & Passiv: 1️⃣1️⃣1️⃣ → ❤️ ODER 2️⃣ → ❤️ (Wahl bei Erlernen)
+       | | + Faustgroße Waffe & Passiv: 1️⃣1️⃣1️⃣ → ❤️
        | | |+ Zweimal Faustgroß: "Dual Wielding" -🎲, beide Waffen würfeln separat
        | | | + Faustgroße Waffe & Passiv: (🔂️) 🎲 → ❤️
        | | |  + Faustgroße Waffe: 🎲
@@ -125,8 +129,8 @@ Skilltree:
        | + Nebenhand: 🎲
        |  + Gegenstand aus der Tasche kann sofort verwendet werden.
        |  |+ Gehaltener Gegenstand: (🔂️) 🌑 → Gehaltener Gegenstand wird eingesetzt oder geworfen, Effekt abhängig von Gegenstand
-       |  | + Freie Nebenhand: (🔂️) Ein Gegenstand aus der Umgebung kann aufgehoben werden, falls kein bestimmter Gegenstand in der Nähe, wird ausgewürfelt¹
-       |  |  + Beim Würfeln freie Nebenhand: 🌑
+       |  | + Freie Nebenhand: (🔂️) Ein Gegenstand aus der Umgebung kann aufgehoben werden, falls kein relevanter Gegenstand bisher erwähnt wurde, wird ausgewürfelt¹
+       |  |  + Beim Würfeln freie Nebenhand: 🌑🌑
        |  + Schild: Verteidigung +☀️☀️
        |  |+ Schild: Verteidigung +❓
        |  | + Schild: Verteidigungsjoker wird verdoppelt
@@ -134,7 +138,7 @@ Skilltree:
        |  + [This node intentionally left blank]
        |  |+ Zweimal Kurz: -🎲🎲, beide Waffen würfeln separat
        |  | + Zwei Kurze Waffen: (🔂️🔂️) 1 Symbol kann von einem Waffen-Würfelpool zum anderen verschoben werden.
-       |  |  + <Doppelschnetzler-Angriff>
+       |  |  + <TODO Doppelschnetzler-Angriff>
        |  + Nebenhand Waffe: 🎲
        |   + Pistole: +🎲🎲🎲 für Schuss
        |   |+ Pistole: Gegner -☀️
@@ -143,36 +147,104 @@ Skilltree:
        |    + Nebenhand Faustgroße Nahkampfwaffe: Bei Verteigung plus ein nicht gewürfeltes Symbol
        |     + Nebenhand Faustgroße Nahkampfwaffe: ⛈️
        + Zweihändig: 🎲
-        + ZH: (🔂️) 2️⃣ → 3️⃣️ (gleiches Symbol)
-         + Reichweite
+        + 
+         + (Echt-)Längere Waffe als längste Waffe des Gegner: "Abstand" (🔂️) ⛈️⛈️ → Gegner verliert 🌑🏔️❤️⚔️⛈️☀️, Gegner kann für ❤️ abwehren. Abgewehrtes zählt nicht zum (🔂️) Limit.
          |+ Mittel
-         ||+ TODO
+         ||+ → ⛈️, 🎲🎲
+         ||+ → AoE
          |+ Lang
-         | + TODO
-         + Waffentyp
-          + ZH & Leicht: 🎲
-          |+ ZH & Leicht: +⛈️
-          + ZH & Ausgewogen: 🎲
-          |+ ZH & Ausgewogen: +🏔️
-          + ZH & Schwer: 🎲
-          |+ ZH & Schwer: +⚔️
-          + Fernkampf möglich
-           + Fernkampf: 🎲
-            + Bogen: Gegner → -☀️☀️
-            + Pulverwaffe: Würfelanzahl für Schuss verdoppelt
-             + Pulverwaffe: Gegner → -☀️☀️
-             + Pulverwaffe kann als Kurze, Ausgewogene Waffe verwendet werden
+         | + → ⛈️⛈️, 🎲
+         | + → Boni auf Reichweite
+         + ZH: 🎲
+         |+ ZH & Leicht: 🎲
+         ||+ ZH & Leicht & Passiv: 2️⃣ → 🌑
+         |||+ ZH & Leicht: 🎲
+         ||| + ZH & Leicht: 🎲
+         |||  + ZH & Leicht: 🎲
+         |||   + ZH & Leicht & Passiv: -❓ → 🌑🌑
+         |||    + ZH & Leicht: 🌑
+         |||     + ZH & Leicht: 🌑
+         |||      + ZH & Leicht: 🌑
+         ||+ ZH & Leicht & Aktiv: 🌑🌑 → ❓
+         || + ZH & Leicht & Aktiv: 
+         ||  + ZH & Leicht & Aktiv: (🔂️) 🌑 → ❓
+         ||   + ZH & Leicht & Aktiv: (🔂️) 🌑 → ❓
+         ||    + ZH & Leicht & Aktiv: 
+         ||     + ZH & Leicht & Aktiv: (🔂️) 🌑 → ❓
+         ||      + ZH & Leicht & Aktiv: 🌑 → ❓
+         ||       + ZH & Leicht & Aktiv: 
+         
+         
+       | || + EH & Leicht & Aktiv: "Blutende Wunde" 🌑🌑⚡️⚡️ → Normale Wunde, die nicht reduziert werden darf
+       | ||  + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
+       | ||   + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
+       | ||    + EH & Leicht & Aktiv: "Finte" 🌑🌑⚡️⚡️ → Gegner muss neu würfeln und darf neu Passiv eingesetzen (Vorherige Passive werde aufgehoben)
+       | ||     + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
+       | ||      + EH & Leicht & Aktiv: 🌑 → ❓
+       | ||       + EH & Leicht & Aktiv: "Zweiter Angriff" 🌑🌑🌑⚡️⚡️⚡️ → Zweiter Wurf nach Abschluss der Aktiven Phase, mit nur Aktiv
+         
+         
+         |+ ZH & Ausgewogen: 🎲
+         ||+ ZH & Ausgewogen & Passiv: 2️⃣ → 🏔️
+         |||+ ZH & Ausgewogen: 🎲
+         ||| + ZH & Ausgewogen & Passiv: 
+         |||  + ZH & Ausgewogen: 🎲
+         |||   + ZH & Ausgewogen & Passiv: 
+         |||    + ZH & Ausgewogen: 🏔️
+         |||     + ZH & Ausgewogen & Passiv: 
+         |||      + ZH & Ausgewogen: 🏔️
+         ||+ ZH & Ausgewogen & Aktiv: 
+         || + ZH & Ausgewogen & Aktiv: 
+         ||  + ZH & Ausgewogen & Aktiv: 
+         ||   + ZH & Ausgewogen & Aktiv: 
+         ||    + ZH & Ausgewogen & Aktiv: 
+         ||     + ZH & Ausgewogen & Aktiv: 
+         ||      + ZH & Ausgewogen & Aktiv: 
+         ||       + ZH & Ausgewogen & Aktiv: 
+         |+ ZH & Schwer: 🎲
+         | + ZH & Schwer & Passiv: 2️⃣ → ⚔️
+         | |+ ZH & Schwer: 🎲
+         | | + ZH & Schwer & Passiv: 
+         | |  + ZH & Schwer: 🎲
+         | |   + ZH & Schwer & Passiv: 
+         | |    + ZH & Schwer: ⚔️
+         | |     + ZH & Schwer & Passiv: 
+         | |      + ZH & Schwer: ⚔️
+         | + ZH & Schwer & Aktiv: (🔂️) ⚔️⚔️⚔️ → Gegner -⚔️
+         |  + ZH & Schwer & Aktiv: 
+         |   + ZH & Schwer & Aktiv: +⚡️ pro Runde
+         |    + ZH & Schwer & Aktiv: (🔂️) ⚔️⚔️ → Gegner -⚔️
+         |     + ZH & Schwer & Aktiv: 
+         |      + ZH & Schwer & Aktiv: +⚡️ pro Runde, Energielimit wird auf 6⚡️ erhöht
+         |       + ZH & Schwer & Aktiv: (🔂️) ⚔️ → Gegner -⚔️
+         |        + ZH & Schwer & Aktiv: 
+         + Fernkampf möglich
+          + Fernkampf: 🎲
+           + Fernkampf-Verteidigung
+           | → Weit weg von Gegnern, sodass nicht direkt angreifen
+           | → mehrere ⛈️ ausgeben, dann muss gegner mindestens so viele ❤️ ausgeben, um angreifen zu können
+           | → ⛈️-❤️ Fernkampf-Verteidigung von anderen ignorieren
+           | → ⛈️
+           | → Würfel von Verteidigung zu Angriff verschieben, d.h. erst nach Verteidigung "nachwürfeln"
+           + Bogen: Gegner → -❓
+           | → Auf Schwachstellen, vgl. Leichte Waffen
+           + Pulverwaffe: Würfelanzahl für Schuss verdoppelt, kann einmal pro Kampf abgeschossen werden
+             → Verteidigungswürfel für mehr Angriff opfern
+             → Massiver Schaden, vgl. Schwere Waffen
+            + Pulverwaffe: kann in einer Runde nachgeladen werden und damit erneut schießen
+            + Pulverwaffe: Gegner → -☀️☀️
+            + Pulverwaffe kann als Kurze, Ausgewogene Waffe verwendet werden
 
 ¹ Zufällige Gegenstände aus der Umgebung:
 
 Wurf | Gegenstand | Effekt
 -----|------------|--------
-🌑   | Sand       | Gegner verliert ein selbst gewähltes und ein vom Angreifer gewähltes Symbol
+🌑   | Sand       | Gegner -1️⃣❓
 🏔️   | Stein      | Leichte Wunde
 ❤️   | Essen      | Der Gegner wirkt etwas wütender als zuvor
-⚔️   | Stock      | Gegner -⛈️, falls keine ⛈️ wählt der Angreifer ein anderes Symbol
+⚔️   | Stock      | Gegner -⛈️, falls keine ⛈️ dann -❓
 ⛈️   | Stroh      | Es passiert nichts.
-☀️   | "Granate"\*| Gegner -☀️, falls keine ☀️ wählt der Angreifer ein anderes Symbol
+☀️   | "Granate"\*| Gegner -☀️, falls keine ☀️ dann -❓
 
 \* Sieht aus wie eine Granate, ist aber keine
 

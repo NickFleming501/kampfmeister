@@ -5,9 +5,9 @@ html_to_pdf()
     OUTPUT=$1
     TOC=$2
     if [ "$TOC" = "toc" ]; then
-        wkhtmltopdf -q --enable-internal-links --encoding 'UTF-8' toc --xsl-style-sheet print/style/toc.xsl print/html/output.html --footer-center [page] "print/${OUTPUT}.pdf"
+        wkhtmltopdf -q --enable-local-file-access --enable-internal-links --encoding 'UTF-8' toc --xsl-style-sheet print/style/toc.xsl print/html/output.html --footer-center [page] "print/${OUTPUT}.pdf"
     else
-        wkhtmltopdf -q --enable-internal-links --encoding 'UTF-8' --page-height 100cm --page-width 210mm print/html/output.html --footer-center [page] "print/${OUTPUT}.pdf"
+        wkhtmltopdf -q --enable-local-file-access --enable-internal-links --encoding 'UTF-8' --page-height 1000cm --page-width 210mm print/html/output.html --footer-center [page] "print/${OUTPUT}.pdf"
     fi
 }
 

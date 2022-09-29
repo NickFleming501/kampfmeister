@@ -128,11 +128,11 @@ Kampfkünstler und Handlanger haben unterschiedliche Regeln.
 #### Handlanger gegen Handlanger
 
 1. HLG1 wählt Ziel-HLG aus
-2. HLG1 wählt N*Hstat gegen Ziel-HLG
+2. HLG1 würfelt N*Hstat gegen Ziel-HLG
 3. HLG2 würfelt Verteidigung (1*Hstat)
 4. HLG1 setzt aktiv ein
 5. HLG2 wählt Ziel-HLG aus
-6. HLG2 wählt N*Hstat gegen Ziel-HLG
+6. HLG2 würfelt N*Hstat gegen Ziel-HLG
 7. HLG1 würfelt Verteidigung (1*Hstat)
 8. HLG2 setzt aktiv ein
 9. (↑ Zurück zu 1.)
