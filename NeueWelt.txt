@@ -3,7 +3,7 @@ Neue Welt:
 
 Eingeborene (Verschiedene Gruppen)
 Land 1:
-	'Zwerge', Eingeborene
+	'trolle', Eingeborene
 	?? (Berg)
 	Beten die 'Heiligen Berge'(Vulkane) an.
 	Siedlungen am Fuß/in/in der nähe von Vulkanen/Bergen
@@ -21,9 +21,10 @@ Land 2:
 		=> Schamanen/Häuptlinge
 		=> Einheit mit der Natur -> nehme nur das nötigste und gebe immer auch was zurück...
 		=> 'Baumknutscher' artig
+		=> verschiedene Tierklans(Löwe/Wolf/Tieger/...)
 	
 Land 3:
-	Tiermenschen, Eingeborene
+	Tiermenschen, Eingeborene, gute elfen?
 	?? (licht/wärme/ehrlichkeit/Gutheit)
 	
 Land 4:
@@ -44,7 +45,7 @@ Land 5:
 	Insgesammt eher unorganisiert
 		
 Land 6:
-	Menschen, Piraten, ehemaliges Nordreich
+	Menschen, Piraten, ehemaliges Nordreich(vorallem Mojahr)
 	?? (Kampf)
 	Sind vor den Orks in die NW geflüchtet
 	Versuchen in der NW irgendwie zu überleben
@@ -53,6 +54,7 @@ Land 6:
 	Piraterie wird genutzt um einfacher an Rohstoffe ranzukommen
 		-> andere Kultur/Religion(Christentum<->Moslems/beziehung wie bei den Kreuzzügen) als die anderen Zivilisierten Länder
 		-> "Ihr habt uns nicht geholfen also helfen wir uns jetzt selbst"
+		-> 1 richtig Große Stadt
 	
 	
 	

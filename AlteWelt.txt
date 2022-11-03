@@ -8,7 +8,7 @@ Ork Kultur(Grüne 'Riesen'(bis zu 3m) mit weißem Fell):
  Fallen in die Zivilisierten Länder ein
  Sind an Kälte angepasst
  Stammeskultur
- 	- ehemals eigene Stämme seit ca. 1323 gibt es eine 'Stammeshirarchy'/Oberklan
+ 	- ehemals eigene Stämme seit ca. 1323 gibt es eine 'Stammeshirarchy'/Oberklan(unter "Zog zi duga" aus dem Klan "zi duga"(aka. Schwarzer Wind), die zuerst in die Menschenländer eingefallen sind.)
  Expandieren nach Süden
  Versklaven Menschen
  Nicht wirklich Verhandlungsbereit
@@ -21,7 +21,7 @@ Ork Kultur(Grüne 'Riesen'(bis zu 3m) mit weißem Fell):
 				- Gott schuff die Welt und bevölkerte sie mit 'seinesgleichen'(Orks), seine Geschwister waren neidisch auf sein Werk und veränderten es(Machten die Welt wärmer und nutzten ihre Macht um die Orks aus südlicheren Landen zu vertreiben) um es mit ihren eigenen Kreationen zu füllen.
 
 Die Zivilisierten Länder:
-Land 1:
+Land 1: Weißbergen
  Auf dem Festland
  Hält linie gegen die Orks im Gebirge
  Standhaftigkeit (Berg)
@@ -34,7 +34,7 @@ Land 1:
 				- später versuchten(z.t. mit erfolg) Einige der anderen Geschwister sich daran Menschen zu verführen vom rechten Pfad abzukommen (und versuchten offensichtlich auch die Leistung ihres großen Bruders zu imitieren indem sie Orks/... erschufen)
 				- Verschiedene Religionszweige/Subgruppierungen sind sich uneins wie die Meschen das Chaos ordnen sollen/was der 'große Auftrag' der Menschheit ist(von 'wir sollten die Ordnung beschützen und durch Freundlichkeit/Hilfsbereitschaft die Welt stückweise verbessern' bis hin zu 'Wir sollten alles Chaos/Ketzer einfach vernichten/bekehren notfalls mit Gewalt').
 
-Land 2:
+Land 2: Schwarzwälden
  Auf dem Festland
  Hält linie gegen die Orks in einem schwer durchquerbarem Wald
  List (Dunkel)
@@ -42,8 +42,8 @@ Land 2:
  Bekannt für gute Schützen
  Baustiel: 'organisch' meist Holz angepasst an umgebung(z.t. auch Baumhäuser/erdhöhlen)
  Religion: siehe oben
-
-Land 3:
+ 
+Land 3: Despotate
  Auf dem Festland
  Hinter einem anderem Land
  Unterstützen Land 1 und 2 Regelmäßig mit Truppen.
@@ -53,7 +53,7 @@ Land 3:
  Baustiel: einfach und funktional(meist Ziegel)
  Religion: siehe oben
  
-Land 4:
+Land 4: Great Kingdom Tempis
  Auf einer Insel
  Blockieren mit ihere Flotte die von Ork eroberten Häfen
  Einfallsreichtum (sturm)
@@ -62,7 +62,7 @@ Land 4:
  Baustiel: Holzhäuser z.t. mit Schindel/Rieddächern -> 'Meklenburgisch'/'Schwedisch'
  Religion: ?siehe oben?
 
-Land 5:
+Land 5: Harz
  In Sicherheit
  Versorgen andere Länder
  Charisma (Herz)
@@ -71,7 +71,7 @@ Land 5:
  Baustiel: Aufwändige Fachwerkhäuser/Prunkbauten wer sichs leisten kann
  Religion: siehe oben
  
-Land 6:
+Land 6: Lumiria
  Am nächsten an der Neuen Welt
  Haben neue Welt zuerst entdeckt
  Neugier (licht)
@@ -90,7 +90,7 @@ Zeitleiste:
 	- Sommer 1320 Neues Land grenzt jetzt an die Orks(Grenzverschiebungen) versucht das Land zurückzuerobern.
 	- Winter 1320 - Orks sind erstarkt und besser organisert starten 2. Welle der Eroberung
 	- 1322 - Nordreiche merken das sie mit den Orks(Barbaren) Probleme haben und stellen erste Hilfsgesuche/verhandeln Waffenstillstände
-	- 1325 - Nordalianz wurde gegründet, keinerlei Hilfe von den Südreichen bisher
+	- 1325 - Nordalianz wurde gegründet(vorallem durch die Bemühungen von Mojahr), keinerlei Hilfe von den Südreichen bisher
 	- 1331 - Offizieller start des 'großen Orkkriegs' - Orks sind offensichtlich Organisiert - Flüchtlingsstrom aus dem Norden bringt jetzt auch die Südlichen Länder zur Mitthilfe.
 	- 1345 - Vormarsch der Orks konnte an den heutigen Grenzen getoppt werden.
 	- 1350 - Jetzt
