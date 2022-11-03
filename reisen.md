@@ -28,4 +28,5 @@ Komplikationen bei Reise/Erkundung
 6. ❤️ Crew-Probleme (Moral, Streit, etc.)
 
 
-
+TODO Wetter prozedural Generieren
+Ausguck-Auswirkung auf Reisegedöns

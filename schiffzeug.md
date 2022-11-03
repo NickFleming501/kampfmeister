@@ -47,25 +47,22 @@ Bemannung ersetzen.
 
 Nachladen & Schießen
 
+Distanz
+-------
+
+Distanz       | Abstand | Manövergedöns | Kanonen-Wurf  | Ausguck-Wurf  | Ausguck-Dauer
+--------------|---------|---------------|---------------|---------------|---------------
+Enterposition | -1      | Unmöglich     |               |+🌑🏔️❤️⚔️⛈️☀️	|⏱️
+Enter         | 0       | +🌑🏔️        	|               |+🌑🏔️❤️⚔️⛈️☀️	|⏱️
+Kurz          | 1-6     |               | ⛈️         	|+🌑🏔️❤️⚔️⛈️☀️	|⌛
+Mittel        | 7-18    | -🌑🏔️        	| ⛈️❤️⚔️     	|               |⌛
+Groß          | 19-36   | -🌑🌑🏔️🏔️ 	| ⛈️❤️⚔️🌑🏔️	|-🌑🏔️❤️⚔️⛈️  	|⌛⌛
+Sichtweite    | 37-60   | Unmöglich     | ⛈️❤️⚔️🌑🏔️☀️	|-🌑🌑🏔️🏔️❤️❤️⚔️⚔️⛈️⛈️☀️|⌛⌛⌛
+
+Enterposition (-1) → Kanonen können nicht verwendet (Ausnahme: Dreh-Bassen)
+
 Schiffsbewegung
 ---------------
-
-### Distanzen
-
-Absolute Distanz liegt zwischen 0-24.
-
-Sofern nicht durch Spielleiter anderwärtig festgelegt, beginnt Distanz bei Horizont (24).
-
-- Enterposition (-1) → Kanonen können nicht verwendet (Ausnahme: Dreh-Bassen)
-- Enter-Reichweite (0)
-    - 6
-- Kurz (1-6)
-    - 12
-- Mittel (7-18)
-    - 18
-- Groß (19-36)
-    - 24
-- Sichtweite (37-60)
 
 ### Geschwindigkeit
 
@@ -102,7 +99,7 @@ Drehungen können genutzt werden um die Feuerposition verändern.
 
 ### Feuerposition
 
-Absolute Feuerposition liegt zwischen 0-24
+Absolute Feuerposition liegt zwischen -12 – +12
 
 - Ideal (0)
     - 3
@@ -116,7 +113,13 @@ Absolute Feuerposition liegt zwischen 0-24
 
 Feuerposition kann durch überschüssige Drehungen in beliebige Richtung verändert werden.
 
-Sofern nicht durch Spielleiter anderwärtig festgelegt, beginnt Feuerposition bei Unmöglich (24).
+Feuerpos. | Winkel  | Winkel    | Bewegungsgedöns | GFPV-Formel | Kanonen-Wurf
+----------|---------|-----------|-----------------|-------------|--------------
+Ideal     |  1 – 0  |   0 – -1  | *0.0            | ToDo        | -
+Gut       |  4 – 2  |  -2 – -4  | *0.5            | ToDo        | 🏔️
+Mittel    |  5 – 7  |  -5 – -7  | *0.75           | ToDo        | 🏔️❤️☀️
+Schlecht  |  8 – 10 |  -8 – -10 | *1.0            | ToDo        | 🏔️❤️☀️🌑⛈️
+Unmöglich | 11 – 12 | -11 – -12 | *1.0            | ToDo        | 🏔️❤️☀️🌑⛈️⚔️
 
 ### Entern
 
@@ -170,6 +173,58 @@ Entern dauert ⌛. Pro Deck Höhenunterschied, kostet 1 🥾
 - In einer ⏱️ können so viele 🥾 eingesetzt werden, wie man hat
 - Pro 🥾 kann man sich ein Deck bewegen
 
+### Ausguck
+
+- Flaggensprache
+    - mit anderen (verbündeten) Schiffen
+    - mit (verbündeten) Siedlungen
+    - von anderen Schiffen "abhören"
+
+#### Symbole
+
+🌑
+
+- Beschädigung/Verwundung
+- Schwachpunkte
+- Form des Geographischen Features
+- Wetter: Sicht
+
+🏔️
+
+- Größe
+- Tiefgang
+- Panzerung/Verteidung/Mauern
+
+❤️
+
+- Crew/Bewohner/Garnison/Vegetation
+- was macht die Crew/Bewohner/Garnison
+- VIPs
+- Wetter: Niederschlag
+
+⚔️
+
+- Bewaffnung
+- Enterstärke/Garnison
+- richtiger Moment zum Schießen
+- Wetter: Windstärke
+
+⛈️
+
+- Kurs
+- Geschwindigkeit
+- geplante Manöver
+- Wetter: Richtung
+- Art des Geographischen Features
+
+☀️
+
+- Schiffe/Siedlungen/Seeungeheuer/Geographisches/etc entdecken
+- Entfernung
+- Flagge/Nationalität
+- Flaggensprache erkennen
+- Wetter: Wann
+
 Skilltree
 ---------
 
@@ -211,61 +266,61 @@ Symbole:
     Start:
     + 🥾, 🛠️🛠️🛠️, Matrosenarbeit möglich
      + 🛠️, Schießen: 🎲🎲
-      + 🛠️, Schießen: 🎲
-       + Steuermann
-       |+ Besser Schifffahren
-       ||+ 
-       || + 
-       ||  + 
-       ||   + 
-       ||    + 
-       |+ Besser Steuerwurf
-       | + 
-       |  + 
-       |   + 
-       |    + 
-       |     + 
-       |      + 
-       |       + 
-       |        + 
-       |         + 
-       |          + 
+      + 🛠️, Schießen: 🎲, Ausguck: 🎲 (Im Krähennest x3)
+       + Steuermann: 🎲🎲🎲, "Feuerposition verändern" ⚔️ Oder ❤️ → Feuerposition +- Wendigkeit
+       |+ Steuermann: 🎲
+       ||+ "Gegnerische Feuerposition verändern" UND 1-2 Masten: 🎲
+       ||| "Gegnerische Feuerposition verändern" UND 3-4 Masten: 🎲
+       || + Steuermann: 🎲
+       ||  + "Enterposition einnehmen"
+       ||  | "Rammen"
+       ||   + Steuermann: 🎲
+       ||    + "Zeug umschiffen"
+       ||    | "Drehung vortäuschen"
+       ||     + Steuermann: 🎲
+       ||      + "Ausweichen"
+       ||      | "Wackeln"
+       ||       + Steuermann: 🎲
+       ||        + Steuermann: ⚔️❤️ ODER 🌑🏔️
+       ||         + Steuermann: 🎲
        + Nachladen: 🛠️, Schießen: 🎲
        |+ Nachladen: 🛠️🛠️
        ||+ Nachladen: 🛠️🛠️
        || + Nachladen: 🛠️🛠️
        ||  + ???
-       |+ Besser Schießen
-       | + 
-       |  + 
-       |   + 
-       |    + 
-       |     + 
-       |      + 
-       |       + 
-       |        + 
-       |         + 
-       |          + 
-       + Ausguck
-       |+ 
-       | + 
-       |  + 
-       |   + 
-       |    + 
-       
-       → Höhere Sichtweite
-       → Auswirkung auf Reisegedöns
-       → Taktik-Informationen
-       → Auswirkung auf Reisegedöns
-       → "Flaggensprache" → Kommunikation durchführen oder abhören
-       → Auswirkung auf Reisegedöns
-       
+       |+ Schießen: 🎲
+       | + "Schwachpunkt-Schuss"
+       |  + Schießen: 🎲
+       |   + 2️⃣ → 🎲
+       |    + Schießen: 🎲
+       |     + "Verbesserter Schwachpunkt-Schuss"
+       |      + Drehbassen: 🎲
+       |      |+ Drehbassen: Reichweite +2
+       |      | + Drehbassen: 🎲
+       |      |  + "Mitnehmen" kann Drehbasse mitnehmen, aber -🥾
+       |      |   + Drehbassen: 🎲
+       |      + Mörser: 🎲
+       |      |+ Mörser: Distanz wird "Mittel" behandelt
+       |      | + Mörser: 🎲
+       |      |  + "Mörder-Mörser" Mörser: 5️⃣ → Instakill
+       |      |   + Mörser: 🎲
+       |      + LMG-Kanonen: 🎲
+       |       + "Kettenschuss" ohne Mali
+       |        + LMG-Kanonen: 🎲
+       |         + "Schrapnell" ohne Mali
+       |          + LMG-Kanonen: 🎲
+       + Ausguck: 🎲
+       |+ Flaggensprache (1)
+       | + Ausguck: 🎲
+       |  + Flaggensprache (+3)
+       |   + Ausguck: 🎲
+       |    + Flaggensprache (+3)
        + Kann Handlangern/Matrosen Befehle geben (auch während Gefechten) → Standard ist, bloß Befehle an Handlangern/Matrosen an einer Station, dauert ⏱️
        |+ Ein ganzes Deck ansprechen
-       ||+ Taktik-Befehle (Sachen anzielen, Entern)
-       || + Antreiben (temporär +🛠️ für Handlanger/Matrosen), dauert ⌛, ist eine Reichweite geringer (Schiff → Deck → Station)
-       ||  + Befehle geben über mehrere Decks hinweg
-       ||   + Befehle geben ist instant
+       ||+ Taktik-Befehle TODO
+       || + Antreiben (temporär +🛠️ für Handlanger/Matrosen), dauert ⌛, für alle auf dem gleichen Deck mit der gleichen Aufgabe
+       ||  + Befehle geben an "benachbarte" Decks möglich (Alles über dem Hauptdeck zählt dafür als ein Deck)
+       ||   + Innerhalb von ⏱️ können beliebig viele Befehle geben werden
        |+ "Bewegung" 🥾🥾
        | + instant-bewegung zu benachbarten Decks des eigenen Schiffs
        |  + instant-bewegung zu allen Decks des eigenen Schiffs
@@ -275,7 +330,7 @@ Symbole:
         |+ Reparieren/Pumpen/Takelage: 🛠️🛠️
         | + Reparieren/Pumpen/Takelage: 🛠️🛠️
         |  + Einmal pro Schiffskampfrunde ist Reparieren/Pumpen/Takelage in ⏱️ möglich
-        + Entern aus der Takelage ohne dass das Schiff in Enterposition ist, sofern Reichweite 0 ist
+        + Entern aus der Takelage ohne dass das Schiff in Enterposition ist, sofern Reichweite in der aktuellen Runde an 0 "vorbeigeht"
          + Rückkehr unabhängig von Enterposition
           + Entern kostet 🥾 (statt ⌛)
            + Handlanger-Instakill beim Betreten des gegn. Schiffes
@@ -328,7 +383,7 @@ Inputs
     - Rammdorn
         - Gewicht = 6
 - Kanonen
-    - Dreh-Basse
+    - Dreh-Basse: wird wie Fernkampfwaffe verwendet
         - Crew min: 1
         - Crew max: 2
         - Nachladekosten: 8🛠️
@@ -356,13 +411,13 @@ Inputs
         - Schaden: 10
         - Reichweite: 25
         - Größe/Gewicht: 1.5
-    - Mörser
+    - (Standard)Mörser: Verwendet immer Distanz "Groß" und Feuerposition "Ideal"
         - Crew min: 2
         - Crew max: 10
         - Nachladekosten: 120🛠️
         - Personenschaden: 10
         - Reichweite: 36
-        - Größe/Gewicht: 3, Maximal (Masten-1) pro Schiff
+        - Größe/Gewicht: 3, Maximal floor(Masten/2) pro Schiff (0,1,1,2)
 
 Sachen die beim Schießen beeinträchtigen:
 - Distanz
@@ -410,10 +465,91 @@ Auflösung:
 - Differenzen der Symbole bilden (Meine ⚔️ minus Deine ⚔️), übrige Symbole werden für eigene Aktionen verwendet
 - Aktionen:
     1. Eigene Feuerposition verändern ⚔️ (❤️)
-    2. Distanz verändern ⛈️ (☀️)
+    2. Distanz verändern
         - Faktor abhängig von Feuerposition
     3. Gegnerische Feuerposition verändern 🌑 (🏔️)
         - Schwieriger wenn weiter weg, leichter wenn näher dran
+    4. Coole Manöver ⛈️ (☀️)
+        - Rammen
+        - Enterposition
+        - Ausweichen (Seeungeheuer, Geg. Rammangriff, Mörser-/Kanonensalven (je nach Distanz))
+        - Environment-Mali mitigieren (Untiefen, Riffe, etc. umschiffen/durchqueren)
+
+- 10-15 🎲 bzw. Symbole
+- "Gegnerische Feuerposition verändern" pro Symbol tolle Formel anwenden
+- "Enterposition einnehmen" 'n paar Symbole
+- "Rammen"
+- "Zeug umschiffen"
+- "Ausweichen"
+
+- Würfel umtauschen
+- Günstigere Feuerposition ändern
+- Günstigere Distanz ändern
+- "Drehung vortäuschen"
+- "Wackeln" aka Gegnerische-Salve-trifft-Panzerung-statt-Crew-oder-anderes-Move
+
+
+- Schwachpunkt-Schuss
+    - Kannonen → immer bekannt, außer bei Seeungeheuern
+    - Steuerruder
+    - Pulverlager
+    - VIPs
+    - Seeungeheuerschwachpunkte
+- Kanonenart-spezialisierung
+    - Drehbassen: mitnehmen
+    - Spezialmunition
+        - "Kettenschuss" aka Takelage-kaputt-mach-Schuss
+        - "Schrapnell" Crew-kaputt-mach-Schuss
+    - Mörser: ignorieren Feuerposition
+
+Schießen: 🎲🎲🎲🎲
+       |+ Schießen: 🎲
+       | + "Schwachpunkt-Schuss"
+       |  + Schießen: 🎲
+       |   + 2️⃣ → 🎲
+       |    + Schießen: 🎲
+       |     + "Verbesserter Schwachpunkt-Schuss"
+       |      + Drehbassen: 🎲
+       |      |+ Drehbassen: Reichweite +2
+       |      | + Drehbassen: 🎲
+       |      |  + "Mitnehmen" kann Drehbasse mitnehmen, aber -🥾
+       |      |   + Drehbassen: 🎲
+       |      + Mörser: 🎲
+       |      |+ Mörser: Distanz wird "Mittel" behandelt
+       |      | + Mörser: 🎲
+       |      |  + "Mörder-Mörser" Mörser: 5️⃣ → Instakill
+       |      |   + Mörser: 🎲
+       |      + LMG-Kanonen: 🎲
+       |       + "Kettenschuss" ohne Mali
+       |        + LMG-Kanonen: 🎲
+       |         + "Schrapnell" ohne Mali
+       |          + LMG-Kanonen: 🎲
+
+
+    🌑  Dunkel
+    🏔️  Berg
+    ❤️  Herz
+    ⚔️  Waffe
+    ⛈️  Sturm
+    ☀️  Licht
+
+    🎲  Extra Würfel
+    ❓  Joker, kann in ein beliebiges Symbol getauscht werden
+    ⚡️  Energie
+
+    1️⃣  1 beliebiges Symbol
+    2️⃣  2 gleiche Symbole
+    3️⃣️  3 gleiche Symbole
+    4️⃣  4 gleiche Symbole
+    5️⃣  5 gleiche Symbole
+
+    🔂️  Einmalig pro Wurf
+
+    🛠️ Arbeitskraft
+    🥾 Bewegung
+
+    ⏱️ Schnelle Aktion
+    ⌛ Lange Aktion
 
 
 🌑
