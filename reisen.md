@@ -160,7 +160,7 @@ Ausguck-Auswirkung auf Reisegedöns
 
 - Reiseroute
     - Länge: 1 Etappe
-    - Terrain: konstant → Steppe
+    - Terrain: konstant → Farmland
 - Reisegruppenzusammenstellen
     - #Läufer
     - #Tiere
@@ -204,7 +204,7 @@ N = 0.5 oder natürliche Zahl
 
 Tiere und Läufer können bis zu 50% überladen werden, dann wird die Geschwindigkeit Gering
 
-1 Schiffstransportkapazität = 1 Ochsenkarrentransportkapazität = 2 Tonnen = 100 Transportkapazität = 1000 Wasser = 6000 Nahrung
+1 Schiffstransportkapazität = 1 Ochsenkarrentransportkapazität = 2 Tonnen = 100 Transportkapazität = 1500 Wasser = 6000 Nahrung
 
 1 Transportkapazität = 60 Nahrung = 15 Wasser
 
