@@ -47,7 +47,7 @@ Skilltree:
        | + ☀️ → ⚡️
        |  + ⚡️⚡️ → ☀️
        + Einhändig: 🎲
-       |+ Einhändig & Aktiv: 2️⃣ → Gegner -1️⃣ (gleiches Symbol)
+       |+ Einhändig & Aktiv: 2️⃣ → Gegner-Verteidigung zählt als -1️⃣ (gleiches Symbol)
        | + Einhändig & Kurz: 🎲
        | |+ EH & Leicht: 🎲
        | ||+ EH & Leicht & Passiv: 1️⃣1️⃣1️⃣ → 🌑
@@ -147,7 +147,7 @@ Skilltree:
        |    + Nebenhand Faustgroße Nahkampfwaffe: Bei Verteigung plus ein nicht gewürfeltes Symbol
        |     + Nebenhand Faustgroße Nahkampfwaffe: ⛈️
        + Zweihändig: 🎲
-        + Zweihändig & Aktiv: 2️⃣ → Gegner -1️⃣ (gleiches Symbol)
+        + Zweihändig & Aktiv: 2️⃣ → Gegner-Verteidigung zählt als -1️⃣ (gleiches Symbol)
          + (Echt-)Längere Waffe als längste Waffe des Gegner: "Abstand" (🔂️) ⛈️⛈️ → Gegner verliert 🌑🏔️❤️⚔️⛈️☀️, Gegner kann für ❤️ abwehren. Abgewehrtes zählt nicht zum (🔂️) Limit.
          |+ Mittel
          ||+ → ⛈️, 🎲🎲
