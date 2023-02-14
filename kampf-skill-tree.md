@@ -47,7 +47,7 @@ Skilltree:
        | + ☀️ → ⚡️
        |  + ⚡️⚡️ → ☀️
        + Einhändig: 🎲
-       |+ 
+       |+ Einhändig & Aktiv: 2️⃣ → Gegner -1️⃣ (gleiches Symbol)
        | + Einhändig & Kurz: 🎲
        | |+ EH & Leicht: 🎲
        | ||+ EH & Leicht & Passiv: 1️⃣1️⃣1️⃣ → 🌑
@@ -62,7 +62,7 @@ Skilltree:
        | || + EH & Leicht & Aktiv: "Blutende Wunde" 🌑🌑⚡️⚡️ → Normale Wunde, die nicht reduziert werden darf
        | ||  + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
        | ||   + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
-       | ||    + EH & Leicht & Aktiv: "Finte" 🌑🌑⚡️⚡️ → Gegner muss neu würfeln und darf neu Passiv eingesetzen (Vorherige Passive werde aufgehoben)
+       | ||    + EH & Leicht & Aktiv: "Finte" 🌑🌑⚡️⚡️ → Gegner muss neu würfeln und darf neu Passiv einsetzen (Vorherige Passive werde aufgehoben)
        | ||     + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
        | ||      + EH & Leicht & Aktiv: 🌑 → ❓
        | ||       + EH & Leicht & Aktiv: "Zweiter Angriff" 🌑🌑🌑⚡️⚡️⚡️ → Zweiter Wurf nach Abschluss der Aktiven Phase, mit nur Aktiv
@@ -131,7 +131,7 @@ Skilltree:
        |  |+ Gehaltener Gegenstand: (🔂️) 🌑 → Gehaltener Gegenstand wird eingesetzt oder geworfen, Effekt abhängig von Gegenstand
        |  | + Freie Nebenhand: (🔂️) Ein Gegenstand aus der Umgebung kann aufgehoben werden, falls kein relevanter Gegenstand bisher erwähnt wurde, wird ausgewürfelt¹
        |  |  + Beim Würfeln freie Nebenhand: 🌑🌑
-       |  + Schild: Verteidigung +☀️☀️
+       |  + Schild: -🎲🎲, Verteidigung +☀️☀️
        |  |+ Schild: Verteidigung +❓
        |  | + Schild: Verteidigungsjoker wird verdoppelt
        |  |  + Schild & Aktiv: "Schild-Bash" 🏔️⚡️⚡️ → Beliebiger Kampfteilnehmer -⚡️ (zählt zu 5⚡️ Limit) und -🎲🎲 für nächsten Wurf
@@ -147,7 +147,7 @@ Skilltree:
        |    + Nebenhand Faustgroße Nahkampfwaffe: Bei Verteigung plus ein nicht gewürfeltes Symbol
        |     + Nebenhand Faustgroße Nahkampfwaffe: ⛈️
        + Zweihändig: 🎲
-        + 
+        + Zweihändig & Aktiv: 2️⃣ → Gegner -1️⃣ (gleiches Symbol)
          + (Echt-)Längere Waffe als längste Waffe des Gegner: "Abstand" (🔂️) ⛈️⛈️ → Gegner verliert 🌑🏔️❤️⚔️⛈️☀️, Gegner kann für ❤️ abwehren. Abgewehrtes zählt nicht zum (🔂️) Limit.
          |+ Mittel
          ||+ → ⛈️, 🎲🎲
@@ -173,17 +173,6 @@ Skilltree:
          ||     + ZH & Leicht & Aktiv: (🔂️) 🌑 → ❓
          ||      + ZH & Leicht & Aktiv: 🌑 → ❓
          ||       + ZH & Leicht & Aktiv: 
-         
-         
-       | || + EH & Leicht & Aktiv: "Blutende Wunde" 🌑🌑⚡️⚡️ → Normale Wunde, die nicht reduziert werden darf
-       | ||  + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
-       | ||   + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
-       | ||    + EH & Leicht & Aktiv: "Finte" 🌑🌑⚡️⚡️ → Gegner muss neu würfeln und darf neu Passiv eingesetzen (Vorherige Passive werde aufgehoben)
-       | ||     + EH & Leicht & Aktiv: (🔂️) 🌑 → ❓
-       | ||      + EH & Leicht & Aktiv: 🌑 → ❓
-       | ||       + EH & Leicht & Aktiv: "Zweiter Angriff" 🌑🌑🌑⚡️⚡️⚡️ → Zweiter Wurf nach Abschluss der Aktiven Phase, mit nur Aktiv
-         
-         
          |+ ZH & Ausgewogen: 🎲
          ||+ ZH & Ausgewogen & Passiv: 2️⃣ → 🏔️
          |||+ ZH & Ausgewogen: 🎲
