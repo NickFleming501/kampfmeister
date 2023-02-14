@@ -1,3 +1,40 @@
+TODO Dokument umstrukturieren
+
+Ablauf Schiffskampf
+-------------------
+
+1. (A1 Steuermannwurf)
+2. B1 Steuermannwurf
+3. B2 Eigene Feuerposition verändern
+4. B3 Distanz verändern (um Differenz beider Schiffe)
+5. A4 Gegnerische Feuerposition verändern
+6. A5 Manöver
+7. A6 Wasser rein
+8. A7 Crew-Aktionen
+    - Langsame Aktion
+        - Nachladen
+        - Reparieren
+        - Wasser abpumpen
+    - Schnelle Aktion
+        - Kanonen Schießen
+        - Crew Bewegung (1 Deck)
+9. A1 Steuermannwurf
+10. A2 Eigene Feuerposition verändern
+11. A3 Distanz verändern (um Differenz beider Schiffe)
+12. B4 Gegnerische Feuerposition verändern
+13. B5 Manöver
+14. B6 Wasser rein
+15. B7 Crew-Aktionen
+    - Langsame Aktion
+        - Nachladen
+        - Reparieren
+        - Wasser abpumpen
+        - Takelage
+    - Schnelle Aktion
+        - Kanonen Schießen
+        - Crew Bewegung (1 Deck)
+16. Zurück zu 2. (B1)
+
 Stationen
 ---------
 
@@ -68,14 +105,14 @@ Schiffsbewegung
 
 Distanz-Änderung pro Runde = *Geschwindigkeit*
 
-5 Punkte, aufgeteilt in *Wendigkeit* / *Segel*
+6 Punkte, aufgeteilt in *Wendigkeit* / *Segel*
 
-    Wendigkeit + Segel = 5
+    Wendigkeit + Segel = 6
 
 *Geschwindigkeit* ergibt sich aus *Gesetzten Segeln*
 
     Geschwindigkeit = Gesetzte Segel
-    0 <= Gesetzte Segel <= Segel
+    1 <= Gesetzte Segel <= Segel
 
 Gesetzte Segel können um 1 erhöht oder gesenkt werden. Die dafür benötigte Zeit hängt von der
 aktuellen Bemannung der Takelage ab. Keine Bemannung erlaubt keine Änderung
@@ -474,6 +511,7 @@ Auflösung:
         - Enterposition
         - Ausweichen (Seeungeheuer, Geg. Rammangriff, Mörser-/Kanonensalven (je nach Distanz))
         - Environment-Mali mitigieren (Untiefen, Riffe, etc. umschiffen/durchqueren)
+    5. Kanonen schießen
 
 - 10-15 🎲 bzw. Symbole
 - "Gegnerische Feuerposition verändern" pro Symbol tolle Formel anwenden
@@ -596,19 +634,25 @@ N               2/3     3/3     4/3
 
 <!--(1L * {Masten}) + (12 * {Masten} * (Decks-1)) - Kanonen-->
 
-Seeungeheuer
-------------
+TODO Steuermann Skills anpassen (mehr verzweigen)
+    - so ein Verteidigung-durchbrechen muss rein
+TODO GFPV-Formel (Geschwindigkeits-Feuerpositions-Veränderungs)
+- improv: Gegner abhängig von Segel um 0.2/0.4/0.6/0.8/1.0 von eigener Geschwindigkeit änderen
+TODO Personenschaden
+TODO Einfluss von Anzahl Erfolgen auf Würfe (Schießen, Drehen)
+TODO Ausguck
+TODO Matrosen sind zu zuverläßig mit Kanonen
+TODO Coole Sondermanöver mit ☀️ und ⛈️
+    - Schnelligkeitsboost durch ⛈️
+        - Selbst schneller/langsamer machen
+    - Speedmalus für Gegner
+    - (Risiko eingehen für evtl. Bonus)
+    - Gegner zwingen, Segel anzupassen (z.B. maximal 4-2 statt 5-1 erlaubt wegen Meeres-Gedöns)
+    - "Kurve schneiden" -> Distanz verringern
+    - 
+TODO Irgendwas um Spannender zu machen
 
-
-
-
-
-
-
-
-
-
-
+TODO Intelligentes Schiffs-Verwaltungs-Sheet (notwendig, Crew + Wasser)
 
 
 
