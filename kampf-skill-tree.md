@@ -75,14 +75,14 @@ Skilltree:
        | |||    + EH & Ausgewogen: 🏔️
        | |||     + EH & Ausgewogen & Passiv: 1️⃣1️⃣ → 🏔️
        | |||      + EH & Ausgewogen: 🏔️
-       | ||+ EH & Ausgewogen & Aktiv: 
-       | || + EH & Ausgewogen & Aktiv: 
-       | ||  + EH & Ausgewogen & Aktiv: 
-       | ||   + EH & Ausgewogen & Aktiv: 
-       | ||    + EH & Ausgewogen & Aktiv: 
-       | ||     + EH & Ausgewogen & Aktiv: 
-       | ||      + EH & Ausgewogen & Aktiv: 
-       | ||       + EH & Ausgewogen & Aktiv: 
+    T  | ||+ EH & Ausgewogen & Aktiv: 
+    T  | || + EH & Ausgewogen & Aktiv: 
+    T  | ||  + EH & Ausgewogen & Aktiv: 
+    T  | ||   + EH & Ausgewogen & Aktiv: 
+    T  | ||    + EH & Ausgewogen & Aktiv: 
+    T  | ||     + EH & Ausgewogen & Aktiv: 
+    T  | ||      + EH & Ausgewogen & Aktiv: 
+    T  | ||       + EH & Ausgewogen & Aktiv: 
        | |+ EH & Schwer: 🎲
        | | + EH & Schwer & Passiv: 1️⃣1️⃣1️⃣ → ⚔️
        | | |+ EH & Schwer: 🎲
@@ -111,21 +111,21 @@ Skilltree:
        | | |     + Faustgroße Waffe & Passiv: 1️⃣1️⃣ → ❤️
        | | |      + Faustgroße Waffe: ❤️
        | | + Angriff ohne Waffe möglich (zählt als Faustgroße Waffe)
-       | | |+ <Special>
-       | | | + 
-       | | |  + 
-       | | |   + <Special>
-       | | |    + 
-       | | |     + 
-       | | |      + <Special>
-       | | + <Messer>
-       | |  + <Special>
-       | |   + 
-       | |    + 
-       | |     + <Special>
-       | |      + 
-       | |       + 
-       | |        + <Special>
+    T  | | |+ <Special>
+    T  | | | + 
+    T  | | |  + 
+    T  | | |   + <Special>
+    T  | | |    + 
+    T  | | |     + 
+    T  | | |      + <Special>
+    T  | | + <Messer>
+    T  | |  + <Special>
+    T  | |   + 
+    T  | |    + 
+    T  | |     + <Special>
+    T  | |      + 
+    T  | |       + 
+    T  | |        + <Special>
        | + Nebenhand: 🎲
        |  + Gegenstand aus der Tasche kann sofort verwendet werden.
        |  |+ Gehaltener Gegenstand: (🔂️) 🌑 → Gehaltener Gegenstand wird eingesetzt oder geworfen, Effekt abhängig von Gegenstand
@@ -150,11 +150,11 @@ Skilltree:
         + Zweihändig & Aktiv: 2️⃣ → Gegner-Verteidigung zählt als -1️⃣ (gleiches Symbol)
          + (Echt-)Längere Waffe als längste Waffe des Gegner: "Abstand" (🔂️) ⛈️⛈️ → Gegner verliert 🌑🏔️❤️⚔️⛈️☀️, Gegner kann für ❤️ abwehren. Abgewehrtes zählt nicht zum (🔂️) Limit.
          |+ Mittel
-         ||+ → ⛈️, 🎲🎲
-         ||+ → AoE
+    T    ||+ → ⛈️, 🎲🎲
+    T    ||+ → AoE
          |+ Lang
-         | + → ⛈️⛈️, 🎲
-         | + → Boni auf Reichweite
+    T    | + → ⛈️⛈️, 🎲
+    T    | + → Boni auf Reichweite
          + ZH: 🎲
          |+ ZH & Leicht: 🎲
          ||+ ZH & Leicht & Passiv: 2️⃣ → 🌑
@@ -166,60 +166,60 @@ Skilltree:
          |||     + ZH & Leicht: 🌑
          |||      + ZH & Leicht: 🌑
          ||+ ZH & Leicht & Aktiv: 🌑🌑 → ❓
-         || + ZH & Leicht & Aktiv: 
+    T    || + ZH & Leicht & Aktiv: 
          ||  + ZH & Leicht & Aktiv: (🔂️) 🌑 → ❓
          ||   + ZH & Leicht & Aktiv: (🔂️) 🌑 → ❓
-         ||    + ZH & Leicht & Aktiv: 
+    T    ||    + ZH & Leicht & Aktiv: 
          ||     + ZH & Leicht & Aktiv: (🔂️) 🌑 → ❓
          ||      + ZH & Leicht & Aktiv: 🌑 → ❓
-         ||       + ZH & Leicht & Aktiv: 
+    T    ||       + ZH & Leicht & Aktiv: 
          |+ ZH & Ausgewogen: 🎲
          ||+ ZH & Ausgewogen & Passiv: 2️⃣ → 🏔️
          |||+ ZH & Ausgewogen: 🎲
-         ||| + ZH & Ausgewogen & Passiv: 
+    T    ||| + ZH & Ausgewogen & Passiv: 
          |||  + ZH & Ausgewogen: 🎲
-         |||   + ZH & Ausgewogen & Passiv: 
+    T    |||   + ZH & Ausgewogen & Passiv: 
          |||    + ZH & Ausgewogen: 🏔️
-         |||     + ZH & Ausgewogen & Passiv: 
+    T    |||     + ZH & Ausgewogen & Passiv: 
          |||      + ZH & Ausgewogen: 🏔️
-         ||+ ZH & Ausgewogen & Aktiv: 
-         || + ZH & Ausgewogen & Aktiv: 
-         ||  + ZH & Ausgewogen & Aktiv: 
-         ||   + ZH & Ausgewogen & Aktiv: 
-         ||    + ZH & Ausgewogen & Aktiv: 
-         ||     + ZH & Ausgewogen & Aktiv: 
-         ||      + ZH & Ausgewogen & Aktiv: 
-         ||       + ZH & Ausgewogen & Aktiv: 
+    T    ||+ ZH & Ausgewogen & Aktiv: 
+    T    || + ZH & Ausgewogen & Aktiv: 
+    T    ||  + ZH & Ausgewogen & Aktiv: 
+    T    ||   + ZH & Ausgewogen & Aktiv: 
+    T    ||    + ZH & Ausgewogen & Aktiv: 
+    T    ||     + ZH & Ausgewogen & Aktiv: 
+    T    ||      + ZH & Ausgewogen & Aktiv: 
+    T    ||       + ZH & Ausgewogen & Aktiv: 
          |+ ZH & Schwer: 🎲
          | + ZH & Schwer & Passiv: 2️⃣ → ⚔️
          | |+ ZH & Schwer: 🎲
-         | | + ZH & Schwer & Passiv: 
+    T    | | + ZH & Schwer & Passiv: 
          | |  + ZH & Schwer: 🎲
-         | |   + ZH & Schwer & Passiv: 
+    T    | |   + ZH & Schwer & Passiv: 
          | |    + ZH & Schwer: ⚔️
-         | |     + ZH & Schwer & Passiv: 
+    T    | |     + ZH & Schwer & Passiv: 
          | |      + ZH & Schwer: ⚔️
          | + ZH & Schwer & Aktiv: (🔂️) ⚔️⚔️⚔️ → Gegner -⚔️
-         |  + ZH & Schwer & Aktiv: 
+    T    |  + ZH & Schwer & Aktiv: 
          |   + ZH & Schwer & Aktiv: +⚡️ pro Runde
          |    + ZH & Schwer & Aktiv: (🔂️) ⚔️⚔️ → Gegner -⚔️
-         |     + ZH & Schwer & Aktiv: 
+    T    |     + ZH & Schwer & Aktiv: 
          |      + ZH & Schwer & Aktiv: +⚡️ pro Runde, Energielimit wird auf 6⚡️ erhöht
          |       + ZH & Schwer & Aktiv: (🔂️) ⚔️ → Gegner -⚔️
-         |        + ZH & Schwer & Aktiv: 
+    T    |        + ZH & Schwer & Aktiv: 
          + Fernkampf möglich
           + Fernkampf: 🎲
            + Fernkampf-Verteidigung
-           | → Weit weg von Gegnern, sodass nicht direkt angreifen
-           | → mehrere ⛈️ ausgeben, dann muss gegner mindestens so viele ❤️ ausgeben, um angreifen zu können
-           | → ⛈️-❤️ Fernkampf-Verteidigung von anderen ignorieren
-           | → ⛈️
-           | → Würfel von Verteidigung zu Angriff verschieben, d.h. erst nach Verteidigung "nachwürfeln"
+    T      | → Weit weg von Gegnern, sodass nicht direkt angreifen
+    T      | → mehrere ⛈️ ausgeben, dann muss gegner mindestens so viele ❤️ ausgeben, um angreifen zu können
+    T      | → ⛈️-❤️ Fernkampf-Verteidigung von anderen ignorieren
+    T      | → ⛈️
+    T      | → Würfel von Verteidigung zu Angriff verschieben, d.h. erst nach Verteidigung "nachwürfeln"
            + Bogen: Gegner → -❓
-           | → Auf Schwachstellen, vgl. Leichte Waffen
+    T      | → Auf Schwachstellen, vgl. Leichte Waffen
            + Pulverwaffe: Würfelanzahl für Schuss verdoppelt, kann einmal pro Kampf abgeschossen werden
-             → Verteidigungswürfel für mehr Angriff opfern
-             → Massiver Schaden, vgl. Schwere Waffen
+    T        → Verteidigungswürfel für mehr Angriff opfern
+    T        → Massiver Schaden, vgl. Schwere Waffen
             + Pulverwaffe: kann in einer Runde nachgeladen werden und damit erneut schießen
             + Pulverwaffe: Gegner → -☀️☀️
             + Pulverwaffe kann als Kurze, Ausgewogene Waffe verwendet werden
