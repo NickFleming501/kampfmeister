@@ -8,46 +8,88 @@ Sachen die genauere Regeln haben sollen (vermutlich)
 
 Charaktererstellung
 [x] Attribute → Fallbackgedöns
-[ ] Kampfkünste → vs Handlanger, vs Meister
-[ ] Profession → Reisen/Erkundung, Schiffsgedöns, Factions
+[~] Kampfkünste → vs Handlanger, vs Meister
+[~] Profession → Reisen/Erkundung, Schiffsgedöns, Factions
 
 Weltkarten
-[ ] Alte Welt
+[x] Alte Welt
     [x] Fraktionen
-    [ ] Karte
-[ ] Neue Welt
-    [ ] Karte
-    [ ] Fraktionen
+    [x] Karte
+[x] Neue Welt
+    [x] Karte
+    [x] Fraktionen
 
-[ ] Kampfskillbäume
+[~] Kampfskillbäume
 [ ] Reise/Erkundungsbaum
-[ ] Schiffsgedönsbaum
+[~] Schiffsgedönsbaum
 [ ] Diplomatiebaum
 
+Kampfzeug
+---------
 
+- Auswirkungen von Wunden auf Kampfmeister (z.B. reduziert Würfel um (Summe aller Wunden))
+- Alle Zweihand Specials
+- Auswirkungen von Mittel/Langen Waffen
+- Einhand & Ausgewogen & Aktiv
+- Angriff ohne Waffen
+- Messer
 
-Leander:
-[ ] Factions, Lore
-[ ] (Hex-)Karten-Gedöns
-[ ] 	Neue Welt
-[x] 	Alte Welt(grob)
-[ ] Grobe religions dings
-[x] Grobe Timeline(Orküberfall, Entdeckung, Erste Siedlungen, Flucht, Jetzt)
+Reisen/Erkundung
+----------------
 
-Felix:
-- Kampfskillbaum
-- Diplomatiebaum
+- Fast Alles
 
-Lucas:
-- Schiffsgedönsbaum
-- Reise/Erkundungsbaum
-- (Fallback-Regeln können auch verwendet werden!)
+Diplomatie
+----------
 
-Tiefe/Menge Knoten Richtwerte:
-- Tiefe: ca 20
-- Knoten: ca 50 Knoten insgesamt im Baum (Kampfbaum x3)
-- Würfel/Extra-Symbole:
-    - Bei Tiefe 3 auf ca 5 Würfel
-    - Bei Tiefe 10 auf ca 10 Würfel
-    - Bei Tiefe 20 auf ca 15 Würfel
+- Fast Alles
 
+Schiffszeug
+-----------
+
+- TODO Steuermann Skills anpassen (mehr verzweigen)
+    - so ein Verteidigung-durchbrechen muss rein
+- TODO GFPV-Formel (Geschwindigkeits-Feuerpositions-Veränderungs)
+    - improv: Gegner abhängig von Segel um 0.2/0.4/0.6/0.8/1.0 von eigener Geschwindigkeit änderen
+- TODO Personenschaden
+- TODO Ausguck
+- TODO Matrosen sind zu zuverläßig mit Kanonen
+- TODO Coole Sondermanöver mit ☀️ und ⛈️
+    - Schnelligkeitsboost durch ⛈️
+        - Selbst schneller/langsamer machen
+    - Speedmalus für Gegner
+    - (Risiko eingehen für evtl. Bonus)
+    - Gegner zwingen, Segel anzupassen (z.B. maximal 4-2 statt 5-1 erlaubt wegen Meeres-Gedöns)
+    - "Kurve schneiden" -> Distanz verringern
+    - "Enterposition einnehmen" 'n paar Symbole
+    - "Rammen"
+    - "Zeug umschiffen"
+    - "Ausweichen"
+    - Würfel umtauschen
+    - Günstigere Feuerposition ändern
+    - Günstigere Distanz ändern
+    - "Drehung vortäuschen"
+    - "Wackeln" aka Gegnerische-Salve-trifft-Panzerung-statt-Crew-oder-anderes-Move
+- TODO Irgendwas um Verfolgungen spannender zu machen
+
+- TODO Intelligentes Schiffs-Verwaltungs-Sheet (notwendig, Crew + Wasser)
+- TODO BYOS
+    - Extra Crew-positionen (Koch, etc.)
+    - Formel für Geldwert für Schiffe
+    - Spezielle Räume
+        - Luxusräume
+- TODO Kanonier
+    - Schwachpunkt-Schuss
+        - Kannonen → immer bekannt, außer bei Seeungeheuern
+        - Steuerruder
+        - Pulverlager
+        - VIPs
+        - Seeungeheuerschwachpunkte
+    - Kanonenart-spezialisierung
+        - Drehbassen: mitnehmen
+        - Spezialmunition
+            - "Kettenschuss" aka Takelage-kaputt-mach-Schuss
+            - "Schrapnell" Crew-kaputt-mach-Schuss
+        - Mörser: ignorieren Feuerposition
+    - TODO Einfluss von Anzahl Erfolgen auf Würfe (Schießen, Drehen)
+    - TODO Schaden an Kanonen, Masten, etc. (Nicht nur Schiff versenken, sondern auch beschädigen (-> bleibenden Schaden))

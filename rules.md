@@ -309,11 +309,7 @@ Bogen → Spitz
 
 {!kampf-skill-tree.md!}
 
-
-
-
 {!reisen.md!}
-
 
 {!factions.md!}
 
