@@ -24,6 +24,11 @@ Weltkarten
 [~] Schiffsgedönsbaum
 [ ] Diplomatiebaum
 
+Sonstiges
+---------
+
+- Punktzahlen für Charaktererstellung
+
 Kampfzeug
 ---------
 
@@ -37,7 +42,14 @@ Kampfzeug
 Reisen/Erkundung
 ----------------
 
-- Fast Alles
+- Schiffsreise -> Ziel ist ankommen
+    - Auswirkung Behinderung/Seegang/Strömung
+- (Geländegängigkeit geringe Mali definieren)
+- Cooles
+- (Jäger & Sammler)
+- Zufallsevents (Idee: Hex Flower)
+    - Positiv/Negativ/Neutral
+    - Stärke
 
 Diplomatie
 ----------

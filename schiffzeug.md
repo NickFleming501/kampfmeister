@@ -54,6 +54,7 @@ Ablauf Schiffskampf
         - Nachladen
         - Reparieren
         - Wasser abpumpen
+        - Takelage
     - Schnelle Aktion
         - Kanonen Schießen
         - Crew Bewegung (1 Deck)
@@ -91,14 +92,14 @@ Die Distanz verändert sich jeweils abhängig von der aktuellen Schiffsgeschwind
 
 Die Distanz ändert sich immer um die Geschwindigkeit beider Schiffe, d.h. es zählt die Gesamtdifferenz beider Schiffsgeschwindigkeit.
 
-Distanz       | Abstand | Manövergedöns | Kanonen-Wurf  | Ausguck-Wurf          | Ausguck-Dauer
---------------|---------|---------------|---------------|-----------------------|---------------
-Enterposition | -1      | Unmöglich     |               |+🌑🏔️❤️⚔️⛈️☀️	        |⏱️
-Enter         | 0       | +🌑🏔️        	|               |+🌑🏔️❤️⚔️⛈️☀️	        |⏱️
-Kurz          | 1-6     |               | ⛈️         	|+🌑🏔️❤️⚔️⛈️☀️	        |⌛
-Mittel        | 7-18    | -🌑🏔️        	| ⛈️❤️⚔️     	|                       |⌛
-Groß          | 19-36   | -🌑🌑🏔️🏔️ 	| ⛈️❤️⚔️🌑🏔️	|-🌑🏔️❤️⚔️⛈️  	        |⌛⌛
-Sichtweite    | 37-60   | Unmöglich     | ⛈️❤️⚔️🌑🏔️☀️	|-🌑🌑🏔️🏔️❤️❤️⚔️⚔️⛈️⛈️☀️|⌛⌛⌛
+Distanz       | Abstand | Manövergedöns | Kanonen-Wurf  | Ausguck-Wurf          | Ausguck-Dauer | GFPV-Faktor
+--------------|---------|---------------|---------------|-----------------------|---------------|------------
+Enterposition | -1      | Unmöglich     |               |+🌑🏔️❤️⚔️⛈️☀️	        |⏱️         	| Unmöglich
+Enter         | 0       | +🌑🏔️        	|               |+🌑🏔️❤️⚔️⛈️☀️	        |⏱️         	| 1.0
+Kurz          | 1-6     |               | ⛈️         	|+🌑🏔️❤️⚔️⛈️☀️	        |⌛         	| 0.5
+Mittel        | 7-18    | -🌑🏔️        	| ⛈️❤️⚔️     	|                       |⌛         	| 0.33
+Groß          | 19-36   | -🌑🌑🏔️🏔️ 	| ⛈️❤️⚔️🌑🏔️	|-🌑🏔️❤️⚔️⛈️  	        |⌛⌛       	| 0.2
+Sichtweite    | 37-60   | Unmöglich     | ⛈️❤️⚔️🌑🏔️☀️	|-🌑🌑🏔️🏔️❤️❤️⚔️⚔️⛈️⛈️☀️|⌛⌛⌛    	| 0.1
 
 Enterposition (-1) → Kanonen können nicht verwendet (Ausnahme: Dreh-Bassen)
 
@@ -106,15 +107,15 @@ Enterposition (-1) → Kanonen können nicht verwendet (Ausnahme: Dreh-Bassen)
 
 Die absolute Feuerposition liegt immer zwischen -12 – +12
 
-Feuerposition kann durch überschüssige Drehungen in beliebige Richtung verändert werden.
+Ein Steuermann kann pro ⚔️ die Feuerposition seines Schiff entsprechend um die aktuelle eigene Wendigkeit verändern.
 
-Feuerpos. | Winkel  | Winkel    | Bewegungsfaktor | GFPV-Formel | Kanonen-Wurf
+Feuerpos. | Winkel  | Winkel    | Bewegungsfaktor | GFPV-Faktor | Kanonen-Wurf
 ----------|---------|-----------|-----------------|-------------|--------------
-Ideal     |  1 – 0  |   0 – -1  | *0.0            | ToDo        | -
-Gut       |  4 – 2  |  -2 – -4  | *0.5            | ToDo        | 🏔️
-Mittel    |  5 – 7  |  -5 – -7  | *0.75           | ToDo        | 🏔️❤️☀️
-Schlecht  |  8 – 10 |  -8 – -10 | *1.0            | ToDo        | 🏔️❤️☀️🌑⛈️
-Unmöglich | 11 – 12 | -11 – -12 | *1.0            | ToDo        | 🏔️❤️☀️🌑⛈️⚔️
+Ideal     |  1 – 0  |   0 – -1  | *0.0            | *1.0        | -
+Gut       |  4 – 2  |  -2 – -4  | *0.5            | *1.0        | 🏔️
+Mittel    |  5 – 7  |  -5 – -7  | *0.75           | *0.75       | 🏔️❤️☀️
+Schlecht  |  8 – 10 |  -8 – -10 | *1.0            | *0.5        | 🏔️❤️☀️🌑⛈️
+Unmöglich | 11 – 12 | -11 – -12 | *1.0            | *0.0        | 🏔️❤️☀️🌑⛈️⚔️
 
 Crew-Aktionen
 -------------
@@ -251,7 +252,18 @@ Skillbaum
     + 🥾, 🛠️🛠️🛠️, Matrosenarbeit möglich
      + 🛠️, Schießen: 🎲🎲
       + 🛠️, Schießen: 🎲, Ausguck: 🎲 (Im Krähennest x3)
-       + Steuermann: 🎲🎲🎲, "Feuerposition verändern" ⚔️ Oder ❤️ → Feuerposition +- Wendigkeit
+       + Steuermann: 🎲🎲🎲 "Feuerposition verändern": kann N viele ⚔️ nutzen, um die eigene Feuerposition um N * Wendigkeit zu verändern
+       |+ 2️⃣ -> ⚔️
+       ||+ ...
+       || + ...
+       ||+ "Gegnerische Feuerposition verändern": kann N viele 🌑 nutzen, um die Feuerposition des Gegners um Geschwindigkeit * GFPV(Distanz) * GPFV(Feuerposition) * N zu verändern
+       || + ...
+       |+ (Besser-Baum)
+       || + ...🎲
+       |+ (Manöver)
+       | + ...
+       
+       
     ~  |+ Steuermann: 🎲
     ~  ||+ "Gegnerische Feuerposition verändern" UND 1-2 Masten: 🎲
     ~  ||| "Gegnerische Feuerposition verändern" UND 3-4 Masten: 🎲
@@ -363,11 +375,11 @@ Build-your-own-Schiff
 6. Wendigkeit
     - round( sqrt(1 / (Masten * Decks * Breite)) * 25 ) * (Beladung (2/3, 3/3, 4/3))
 7. Segel (Geschwindigkeit – Wendigkeit):
-    - 1-5: Geschwindigkeitsfaktor 0.33, Wendigkeitsfaktor 1.67
-    - 2-4: Geschwindigkeitsfaktor 0.67, Wendigkeitsfaktor 1.33
-    - 3-3: Geschwindigkeitsfaktor 1.00, Wendigkeitsfaktor 1.00
-    - 4-2: Geschwindigkeitsfaktor 1.33, Wendigkeitsfaktor 0.67
-    - 5-1: Geschwindigkeitsfaktor 1.67, Wendigkeitsfaktor 0.33
+    - 1-5: Geschwindigkeitsfaktor 0.33, Wendigkeitsfaktor (1.67) → 0.42
+    - 2-4: Geschwindigkeitsfaktor 0.67, Wendigkeitsfaktor (1.33) → 0.33
+    - 3-3: Geschwindigkeitsfaktor 1.00, Wendigkeitsfaktor (1.00) → 0.25
+    - 4-2: Geschwindigkeitsfaktor 1.33, Wendigkeitsfaktor (0.67) → 0.17
+    - 5-1: Geschwindigkeitsfaktor 1.67, Wendigkeitsfaktor (0.33) → 0.08
 8. Extras
     - Mars-Deck
     - Panzerung
