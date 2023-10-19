@@ -92,14 +92,14 @@ Die Distanz verändert sich jeweils abhängig von der aktuellen Schiffsgeschwind
 
 Die Distanz ändert sich immer um die Geschwindigkeit beider Schiffe, d.h. es zählt die Gesamtdifferenz beider Schiffsgeschwindigkeit.
 
-Distanz       | Abstand | Manövergedöns | Kanonen-Wurf  | Ausguck-Wurf          | Ausguck-Dauer | GFPV-Faktor
---------------|---------|---------------|---------------|-----------------------|---------------|------------
-Enterposition | -1      | Unmöglich     |               |+🌑🏔️❤️⚔️⛈️☀️	        |⏱️         	| Unmöglich
-Enter         | 0       | +🌑🏔️        	|               |+🌑🏔️❤️⚔️⛈️☀️	        |⏱️         	| 1.0
-Kurz          | 1-6     |               | ⛈️         	|+🌑🏔️❤️⚔️⛈️☀️	        |⌛         	| 0.5
-Mittel        | 7-18    | -🌑🏔️        	| ⛈️❤️⚔️     	|                       |⌛         	| 0.33
-Groß          | 19-36   | -🌑🌑🏔️🏔️ 	| ⛈️❤️⚔️🌑🏔️	|-🌑🏔️❤️⚔️⛈️  	        |⌛⌛       	| 0.2
-Sichtweite    | 37-60   | Unmöglich     | ⛈️❤️⚔️🌑🏔️☀️	|-🌑🌑🏔️🏔️❤️❤️⚔️⚔️⛈️⛈️☀️|⌛⌛⌛    	| 0.1
+Distanz       | Abstand | Manövergedöns | Kanonen-Wurf  | Ausguck-Wurf           | GFPV-Faktor
+--------------|---------|---------------|---------------|------------------------|------------
+Enterposition | -1      | Unmöglich     |               |+🌑🏔️❤️⚔️⛈️☀️           | Unmöglich
+Enter         | 0       | +🌑🏔️         |               |+🌑🏔️❤️⚔️⛈️☀️           | 1.0
+Kurz          | 1-6     |               | ⛈️❤️          |+🌑🏔️❤️⚔️⛈️☀️           | 0.5
+Mittel        | 7-18    | -🌑🏔️         | ⛈️❤️⚔️🌑      |                        | 0.33
+Groß          | 19-36   | -🌑🌑🏔️🏔️     | ⛈️❤️⚔️🌑🏔️☀️  |-🌑🏔️❤️⚔️⛈️             | 0.2
+Sichtweite    | 37-60   | Unmöglich     | Unmöglich     |-🌑🌑🏔️🏔️❤️❤️⚔️⚔️⛈️⛈️☀️ | 0.1
 
 Enterposition (-1) → Kanonen können nicht verwendet (Ausnahme: Dreh-Bassen)
 
@@ -112,10 +112,10 @@ Ein Steuermann kann pro ⚔️ die Feuerposition seines Schiff entsprechend um d
 Feuerpos. | Winkel  | Winkel    | Bewegungsfaktor | GFPV-Faktor | Kanonen-Wurf
 ----------|---------|-----------|-----------------|-------------|--------------
 Ideal     |  1 – 0  |   0 – -1  | *0.0            | *1.0        | -
-Gut       |  4 – 2  |  -2 – -4  | *0.5            | *1.0        | 🏔️
-Mittel    |  5 – 7  |  -5 – -7  | *0.75           | *0.75       | 🏔️❤️☀️
-Schlecht  |  8 – 10 |  -8 – -10 | *1.0            | *0.5        | 🏔️❤️☀️🌑⛈️
-Unmöglich | 11 – 12 | -11 – -12 | *1.0            | *0.0        | 🏔️❤️☀️🌑⛈️⚔️
+Gut       |  4 – 2  |  -2 – -4  | *0.5            | *1.0        | 🏔️❤️
+Mittel    |  5 – 7  |  -5 – -7  | *0.75           | *0.75       | 🏔️❤️☀️🌑
+Schlecht  |  8 – 10 |  -8 – -10 | *1.0            | *0.5        | 🏔️❤️☀️🌑⛈️⚔️
+Unmöglich | 11 – 12 | -11 – -12 | *1.0            | *0.0        | Unmöglich
 
 Crew-Aktionen
 -------------
@@ -256,7 +256,7 @@ Skillbaum
        |+ 2️⃣ -> ⚔️
        ||+ ...
        || + ...
-       ||+ "Gegnerische Feuerposition verändern": kann N viele 🌑 nutzen, um die Feuerposition des Gegners um Geschwindigkeit * GFPV(Distanz) * GPFV(Feuerposition) * N zu verändern
+       ||+ "Gegnerische Feuerposition verändern": kann N viele 🌑 nutzen, um die Feuerposition des Gegners um Geschwindigkeit * GFPV(Distanz) * GFPV(Feuerposition) * N zu verändern
        || + ...
        |+ (Besser-Baum)
        || + ...🎲
