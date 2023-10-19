@@ -27,14 +27,14 @@ Weltkarten
 Sonstiges
 ---------
 
-- Punktzahlen für Charaktererstellung
++ Punktzahlen für Charaktererstellung
 
 Kampfzeug
 ---------
 
-- Auswirkungen von Wunden auf Kampfmeister (z.B. reduziert Würfel um (Summe aller Wunden))
-- Alle Zweihand Specials
-- Auswirkungen von Mittel/Langen Waffen
++ Auswirkungen von Wunden auf Kampfmeister (z.B. reduziert Würfel um (Summe aller Wunden))
++ Alle Zweihand Specials
++ Auswirkungen von Mittel/Langen Waffen
 - Einhand & Ausgewogen & Aktiv
 - Angriff ohne Waffen
 - Messer
@@ -42,12 +42,13 @@ Kampfzeug
 Reisen/Erkundung
 ----------------
 
-- Schiffsreise -> Ziel ist ankommen
++ Schiffsreise -> Ziel ist ankommen
     - Auswirkung Behinderung/Seegang/Strömung
-- (Geländegängigkeit geringe Mali definieren)
-- Cooles
++ (Geländegängigkeit geringe Mali definieren)
++ Geländegängigkeit Regeln ordentlich aufschreiben
++ Cooles
 - (Jäger & Sammler)
-- Zufallsevents (Idee: Hex Flower)
++ Zufallsevents (Idee: Hex Flower)
     - Positiv/Negativ/Neutral
     - Stärke
 
@@ -59,14 +60,14 @@ Diplomatie
 Schiffszeug
 -----------
 
-- TODO Steuermann Skills anpassen (mehr verzweigen)
++ TODO Steuermann Skills anpassen (mehr verzweigen)
     - so ein Verteidigung-durchbrechen muss rein
-- TODO GFPV-Formel (Geschwindigkeits-Feuerpositions-Veränderungs)
+- LATER GFPV-Formel (Geschwindigkeits-Feuerpositions-Veränderungs)
     - improv: Gegner abhängig von Segel um 0.2/0.4/0.6/0.8/1.0 von eigener Geschwindigkeit änderen
 - TODO Personenschaden
 - TODO Ausguck
-- TODO Matrosen sind zu zuverläßig mit Kanonen
-- TODO Coole Sondermanöver mit ☀️ und ⛈️
++ TODO Matrosen sind zu zuverläßig mit Kanonen
++ TODO Coole Sondermanöver mit ☀️ und ⛈️
     - Schnelligkeitsboost durch ⛈️
         - Selbst schneller/langsamer machen
     - Speedmalus für Gegner
@@ -90,7 +91,7 @@ Schiffszeug
     - Formel für Geldwert für Schiffe
     - Spezielle Räume
         - Luxusräume
-- TODO Kanonier
++ TODO Kanonier
     - Schwachpunkt-Schuss
         - Kannonen → immer bekannt, außer bei Seeungeheuern
         - Steuerruder

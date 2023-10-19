@@ -1,32 +1,5 @@
-Kampf-Skilltree
-===============
-
-Symbole:
-
-    🌑  Dunkel
-    🏔️  Berg
-    ❤️  Herz
-    ⚔️  Waffe
-    ⛈️  Sturm
-    ☀️  Licht
-
-    🎲  Extra Würfel
-    ❓  Joker, kann in ein beliebiges Symbol getauscht werden
-    ⚡️  Energie
-
-    1️⃣  1 beliebiges Symbol
-    2️⃣  2 gleiche Symbole
-    3️⃣️  3 gleiche Symbole
-    4️⃣  4 gleiche Symbole
-    5️⃣  5 gleiche Symbole
-
-    🔂️  Einmalig pro Wurf
-
-    Auf Gegner bezogen:
-    ❓ Selbstgewählt
-    1️⃣ Gegner wählt
-
-Skilltree:
+Kampf: 20 (32)
+-----
 
     Start:
     + 🎲🎲, Waffe: 🎲, (🔂️🔂️🔂️) 1️⃣1️⃣ → ⚡️
@@ -92,40 +65,14 @@ Skilltree:
        | | |    + EH & Schwer: ⚔️
        | | |     + EH & Schwer & Passiv: 1️⃣1️⃣ → ⚔️
        | | |      + EH & Schwer: ⚔️
-   T   | | + EH & Schwer & Aktiv: (🔂️) ⚔️ → Gegner -⚔️
+       | | + EH & Schwer & Aktiv: (🔂️) ⚔️⚔️⚔️ → Gegner -⚔️
        | |  + EH & Schwer & Aktiv: "Rüstungsbrecher" X+⚡️⚡️ → Wunde ignoriert Rüstung.
        | |   + EH & Schwer & Aktiv: +⚡️ pro Runde
-   T   | |    + EH & Schwer & Aktiv: ⚔️ → Gegner -⚔️
+       | |    + EH & Schwer & Aktiv: (🔂️) ⚔️⚔️ → Gegner -⚔️
        | |     + EH & Schwer & Aktiv: "Narcosehammer" ⚔️⚔️⚔️⚡️⚡️⚡️ → Gegner -⚡️⚡️⚡️ (zählt zu 5⚡️ Limit) und -🎲🎲🎲 für nächsten Wurf
        | |      + EH & Schwer & Aktiv: +⚡️ pro Runde, Energielimit wird auf 6⚡️ erhöht
-   T   | |       + EH & Schwer & Aktiv: ⚡️ → Gegner -⚔️
+       | |       + EH & Schwer & Aktiv: (🔂️) ⚔️ → Gegner -⚔️
        | |        + EH & Schwer & Aktiv: "Schädelspalter" ⚔️⚔️⚔️⚡️⚡️⚡️⚡️⚡️ → Tötet den Gegner. Punkt.
-       | + Faustgroße Waffe: -🎲 +❤️❤️
-       | |+ (Echt-)Kürzere Waffe als längste Waffe des Gegner: "Näher ran" (🔂️) ❤️❤️ → 🌑🏔️❤️⚔️⛈️☀️, Gegner kann für ⛈️ abwehren. Abgewehrtes zählt nicht zum (🔂️) Limit.
-       | | + Faustgroße Waffe & Passiv: 1️⃣1️⃣1️⃣ → ❤️
-       | | |+ Zweimal Faustgroß: "Dual Wielding" -🎲, beide Waffen würfeln separat
-       | | | + Faustgroße Waffe & Passiv: (🔂️) 🎲 → ❤️
-       | | |  + Faustgroße Waffe: 🎲
-       | | |   + Faustgroße Waffe & Passiv: 3️⃣️ → ❤️❤️
-       | | |    + Faustgroße Waffe: 🎲
-       | | |     + Faustgroße Waffe & Passiv: 1️⃣1️⃣ → ❤️
-       | | |      + Faustgroße Waffe: ❤️
-       | | + Angriff ohne Waffe möglich (zählt als Faustgroße Waffe)
-    T  | | |+ <Special>
-    T  | | | + 
-    T  | | |  + 
-    T  | | |   + <Special>
-    T  | | |    + 
-    T  | | |     + 
-    T  | | |      + <Special>
-    T  | | + <Messer>
-    T  | |  + <Special>
-    T  | |   + 
-    T  | |    + 
-    T  | |     + <Special>
-    T  | |      + 
-    T  | |       + 
-    T  | |        + <Special>
        | + Nebenhand: 🎲
        |  + Gegenstand aus der Tasche kann sofort verwendet werden.
        |  |+ Gehaltener Gegenstand: (🔂️) 🌑 → Gehaltener Gegenstand wird eingesetzt oder geworfen, Effekt abhängig von Gegenstand
@@ -161,26 +108,26 @@ Skilltree:
          |||+ ZH & Leicht: 🎲
          ||| + ZH & Leicht: 🎲
          |||  + ZH & Leicht: 🎲
-         |||   + ZH & Leicht & Passiv: 2️⃣ → 🌑🌑
+         |||   + ZH & Leicht & Passiv: -❓ → 🌑🌑
          |||    + ZH & Leicht: 🌑
          |||     + ZH & Leicht: 🌑
          |||      + ZH & Leicht: 🌑
          ||+ ZH & Leicht & Aktiv: 🌑🌑 → ❓
-         || + ZH & Leicht & Aktiv: "Mit der Stumpfen Seite schlagen" 🌑⚡️⚡️ → Wunde macht 🏔️ Schaden
+    T    || + ZH & Leicht & Aktiv: 
          ||  + ZH & Leicht & Aktiv: (🔂️) 🌑 → ❓
          ||   + ZH & Leicht & Aktiv: (🔂️) 🌑 → ❓
-         ||    + ZH & Leicht & Aktiv: "Konter/Ausfallschritt" 🌑🌑⚡️⚡️ → Neuer Wurf während der Aktiven Phase, mit nur Aktiv -> Muss erste Aktion der Aktiv-Phase sein
+    T    ||    + ZH & Leicht & Aktiv: 
          ||     + ZH & Leicht & Aktiv: (🔂️) 🌑 → ❓
          ||      + ZH & Leicht & Aktiv: 🌑 → ❓
-         ||       + ZH & Leicht & Aktiv: "Grausame Wunde" 🌑🌑⚡️⚡️ → Starke Wunde, die nicht reduziert werden darf
+    T    ||       + ZH & Leicht & Aktiv: 
          |+ ZH & Ausgewogen: 🎲
          ||+ ZH & Ausgewogen & Passiv: 2️⃣ → 🏔️
          |||+ ZH & Ausgewogen: 🎲
-    T    ||| + ZH & Ausgewogen: 🎲
+    T    ||| + ZH & Ausgewogen & Passiv: 
          |||  + ZH & Ausgewogen: 🎲
-    T    |||   + ZH & Ausgewogen & Passiv: 2️⃣ → 🏔️🏔️
+    T    |||   + ZH & Ausgewogen & Passiv: 
          |||    + ZH & Ausgewogen: 🏔️
-    T    |||     + ZH & Ausgewogen: 🏔️
+    T    |||     + ZH & Ausgewogen & Passiv: 
          |||      + ZH & Ausgewogen: 🏔️
     T    ||+ ZH & Ausgewogen & Aktiv: 
     T    || + ZH & Ausgewogen & Aktiv: 
@@ -193,20 +140,20 @@ Skilltree:
          |+ ZH & Schwer: 🎲
          | + ZH & Schwer & Passiv: 2️⃣ → ⚔️
          | |+ ZH & Schwer: 🎲
-         | | + ZH & Schwer: 🎲
+    T    | | + ZH & Schwer & Passiv: 
          | |  + ZH & Schwer: 🎲
-         | |   + ZH & Schwer & Passiv: 2️⃣ → ⚔️⚔️
+    T    | |   + ZH & Schwer & Passiv: 
          | |    + ZH & Schwer: ⚔️
-         | |     + ZH & Schwer: ⚔️
+    T    | |     + ZH & Schwer & Passiv: 
          | |      + ZH & Schwer: ⚔️
-         | + ZH & Schwer & Aktiv: (🔂️) ⚔️ → Gegner -⚔️
-         |  + ZH & Schwer & Aktiv: "Taumelschlag" ⚔️⚡️ → Gegner -⚡️ (zählt zu 5⚡️ Limit) und -🎲 für nächsten Wurf
+         | + ZH & Schwer & Aktiv: (🔂️) ⚔️⚔️⚔️ → Gegner -⚔️
+    T    |  + ZH & Schwer & Aktiv: 
          |   + ZH & Schwer & Aktiv: +⚡️ pro Runde
-         |    + ZH & Schwer & Aktiv: "Schmetterschlag" X⚔️ und X⚡️ → Macht eine X Wunde und bringt Gegner auf X Abstand (muss X ❤️ ausgeben, um angreifen zu können)
-         |     + ZH & Schwer & Aktiv: ⚔️ → Gegner -⚔️
+         |    + ZH & Schwer & Aktiv: (🔂️) ⚔️⚔️ → Gegner -⚔️
+    T    |     + ZH & Schwer & Aktiv: 
          |      + ZH & Schwer & Aktiv: +⚡️ pro Runde, Energielimit wird auf 6⚡️ erhöht
-         |       + ZH & Schwer & Aktiv: ⚡️ → Gegner -⚔️
-         |        + ZH & Schwer & Aktiv: "Schädelspalter" ⚔️⚔️⚔️⚡️⚡️⚡️⚡️⚡️ → Tötet den Gegner. Punkt.
+         |       + ZH & Schwer & Aktiv: (🔂️) ⚔️ → Gegner -⚔️
+    T    |        + ZH & Schwer & Aktiv: 
          + Fernkampf möglich
           + Fernkampf: 🎲
            + Fernkampf-Verteidigung
@@ -224,110 +171,154 @@ Skilltree:
             + Pulverwaffe: Gegner → -☀️☀️
             + Pulverwaffe kann als Kurze, Ausgewogene Waffe verwendet werden
 
-Ideen:
-    - Selbst neu Würfeln
-         → Neuer Wurf während der Aktiven Phase, mit nur Aktiv -> Muss erste Aktion der Aktiv-Phase sein
+Reisen: (14)
+------
+
+    + 🎲, Kann 2 Tragen
+     + 🎲, kann Erste Hilfe leisten
+      + 🎲, Kann Wagenlenken ohne Behinderungen
+       + 🎲🎲 "Reiseleiter"
+       |+ Kann Tiere kaufen
+       ||+ Kann Leute anheuern
+       || + Kann Spezialisten (z.B. Wagenlenker) anheuern
+       |+ 🎲
+       | + 🎲
+       |  + 🎲
+       |   + 🎲
+       |    + ❓
+       + (🔂️) 🎲 → 🌑 "Diplomaten"
+       |+ 1️⃣1️⃣1️⃣ → 🌑
+       | + 🌑
+       |  + 1 Gratiswissen (Terrain, Risiken, Längen, etc.) vor der Reise
+       |   + 3️⃣️ → 🌑🌑
+       |    + 🌑
+       |     + 2 Gratiswissen (Terrain, Risiken, Längen, etc.) vor der Reise
+       + (🔂️) 🎲 → 🏔️ "Scouts"
+       |+ 1️⃣1️⃣1️⃣ → 🏔️
+       | + 🏔️
+   T   |  + Cooles
+       |   + 3️⃣️ → 🏔️🏔️
+       |    + 🏔️
+   T   |     + Cooles
+       + (🔂️) 🎲 → ❤️ "Ärzte"
+       |+ 1️⃣1️⃣1️⃣ → ❤️
+       | + ❤️
+       |  + Einmal abends bei bis zu 5 Personen Wunden um 1 reduzieren
+       |   + 3️⃣️ → ❤️❤️
+       |    + ❤️
+       |     + Einmal abends bei bis zu 5 Personen Wunden um 2 reduzieren
+       + (🔂️) 🎲 → ⚔️ "Wachen"
+       |+ 1️⃣1️⃣1️⃣ → ⚔️
+       | + ⚔️
+   T   |  + Cooles
+       |   + 3️⃣️ → ⚔️⚔️
+       |    + ⚔️
+   T   |     + Cooles
+       + (🔂️) 🎲 → ⛈️ "Mechaniker"
+       |+ 1️⃣1️⃣1️⃣ → ⛈️
+       | + ⛈️
+   T   |  + Cooles
+       |   + 3️⃣️ → ⛈️⛈️
+       |    + ⛈️
+   T   |     + Cooles
+       + (🔂️) 🎲 → ☀️ "Navis"
+       |+ 1️⃣1️⃣1️⃣ → ☀️
+       | + ☀️
+   T   |  + Cooles
+       |   + 3️⃣️ → ☀️☀️
+       |    + ☀️
+   T   |     + Cooles
+       + Kann Wagenlenken bei geringer Behinderung
+       |+ Kann einzelne Hindernisse durchqueren (z.B. Fluss)
+       | + Kann Wagenlenken bei mittlerer Behinderung
+       + Transportkapazität +1
+        + Transportkapazität +1
+         + Transportkapazität +1
+          + Transportkapazität +1
+
+Schiffszeug (25)
+-----------
 
 
-
-¹ Zufällige Gegenstände aus der Umgebung:
-
-Wurf | Gegenstand | Effekt
------|------------|--------
-🌑   | Sand       | Gegner -1️⃣❓
-🏔️   | Stein      | Leichte Wunde
-❤️   | Essen      | Der Gegner wirkt etwas wütender als zuvor
-⚔️   | Stock      | Gegner -⛈️, falls keine ⛈️ dann -❓
-⛈️   | Stroh      | Es passiert nichts.
-☀️   | "Granate"\*| Gegner -☀️, falls keine ☀️ dann -❓
-
-\* Sieht aus wie eine Granate, ist aber keine
-
-Temp (Fäuste & Messer)
-- Passivzweig (? → ❤️)
- - Aktiv: "Näher ran" (🔂️) ❤️❤️ → 🌑🏔️❤️⚔️⛈️☀️, Gegner kann für ⛈️ abwehren. Abgewehrtes zählt nicht zum (🔂️) Limit.
-  - Zweimal Faustgroß: "Dual Wielding" -🎲, beide Waffen würfeln separat
-- Faust:
-    - Grapple
-    - Stumpf
-    - Entwaffnen
-    - Leute werfen
-    - Griffe (Bewegungsunfähig machen)
-- Messer:
-    - Stichschaden
-    - Stichschaden
-    - Stichschaden
-    - Stichschaden
-    - Stichschaden
-
-
-
-Temp (⚔️ = Hauptsymbol):
-
-- (🔂️) 2️⃣ → 3️⃣️ (gleiches Symbol)
-- (🔂️) 1️⃣ → 🎲
-- (🔂️) 1️⃣ → ⚔️
-- (🔂️) ⚔️ → ❓
-- (🔂️) ⚔️ → Verteidigung: ❓
-- (🔂️) 2️⃣ → ❓
-- (🔂️) ⚔️ → 🎲🎲
-- (🔂️) 3️⃣️ → ⚔️⚔️
-- (🔂️) ⚔️ → ⚡️
-- (🔂️) ⚔️⚔️ → ⚡️⚡️⚡️
-- (🔂️) 1️⃣ → ⚡️
-- 2️⃣ → ⚡️
-- (🔂️) 
-- (🔂️) 
-- (🔂️) 
-- (🔂️) ⚡️1️⃣ → 🎲
-- ⚡️⚡️2️⃣ → 3️⃣️ (gleiches Symbol)
-- ⚡️1️⃣ → ⚔️
-- ⚡️⚔️ → ❓
-- ⚡️⚔️ → Verteidigung: ❓
-- ⚡️2️⃣ → ❓
-- ⚡️⚔️ → 🎲🎲
-- ⚡️3️⃣️ → ⚔️⚔️
-- -🎲 → ⚔️⚔️
-- 2️⃣ → ⚔️
-- ⚔️⚔️ → Gegner -⚔️
-- ⚔️⚔️⚔️ → Gegner -⚔️⚔️
-
-Maximal 5⚡️ (abzüglich Energie der Verteidung(en) der letzen Runde) pro Runde ausgeben
-
-
-Leicht      ⛈️, 🌑
-Ausgewogen  🏔️, ☀️
-Schwer      ⚔️, ❤️
-
-
-
-
-
-Symbole:
-    🌑  Dunkel
-    🏔️  Berg
-    ❤️  Herz
-    ⚔️  Waffe
-    ⛈️  Sturm
-    ☀️  Licht
-
-    🎲  Extra Würfel
-    ❓  Joker, kann in ein beliebiges Symbol getauscht werden
-    ⚡️  Energie
-
-    1️⃣  1 beliebiges Symbol
-    2️⃣  2 gleiche Symbole
-    3️⃣️  3 gleiche Symbole
-    4️⃣  4 gleiche Symbole
-    5️⃣  5 gleiche Symbole
-
-    🔂️  Einmalig pro Wurf
-
-
-
-
-
-
-
+    Start:
+    + 🥾, 🛠️🛠️🛠️, Matrosenarbeit möglich
+     + 🛠️, Schießen: 🎲🎲
+      + 🛠️, Schießen: 🎲, Ausguck: 🎲 (Im Krähennest x3)
+       + Steuermann: 🎲🎲🎲 "Feuerposition verändern": kann N viele ⚔️ nutzen, um die eigene Feuerposition um N * Wendigkeit zu verändern
+       |+ 2️⃣ -> ⚔️
+       ||+ ...
+       || + ...
+       ||  + ...
+       ||   + ...
+       ||    + ...
+       |+ "Gegnerische Feuerposition verändern": kann N viele 🌑 nutzen, um die Feuerposition des Gegners um Geschwindigkeit * GFPV(Distanz) * GPFV(Feuerposition) * N zu verändern
+       ||+ ...
+       || + ...
+       ||  + ...
+       ||   + ...
+       |+ (Besser-Baum)
+       ||+ ...🎲
+       || + ...
+       ||  + ...
+       ||   + ...
+       |+ (Manöver)
+       | + ...
+       |  + ...
+       |   + ...
+       |    + ...
+       |     + ...
+       + Nachladen: 🛠️, Schießen: 🎲
+       |+ Nachladen: 🛠️🛠️
+       ||+ Nachladen: 🛠️🛠️
+       || + Nachladen: 🛠️🛠️
+    T  ||  + ???
+       |+ Schießen: 🎲
+       | + "Schwachpunkt-Schuss"
+       |  + Schießen: 🎲
+       |   + 2️⃣ → 🎲
+       |    + Schießen: 🎲
+       |     + "Verbesserter Schwachpunkt-Schuss"
+       |      + Drehbassen: 🎲
+       |      |+ Drehbassen: Reichweite +2
+       |      | + Drehbassen: 🎲
+       |      |  + "Mitnehmen" kann Drehbasse mitnehmen, aber -🥾
+       |      |   + Drehbassen: 🎲
+       |      + Mörser: 🎲
+       |      |+ Mörser: Distanz wird "Mittel" behandelt
+       |      | + Mörser: 🎲
+       |      |  + "Mörder-Mörser" Mörser: 5️⃣ → Instakill
+       |      |   + Mörser: 🎲
+       |      + LMG-Kanonen: 🎲
+       |       + "Kettenschuss" ohne Mali
+       |        + LMG-Kanonen: 🎲
+       |         + "Schrapnell" ohne Mali
+       |          + LMG-Kanonen: 🎲
+       + Ausguck: 🎲
+       |+ Flaggensprache (1)
+       | + Ausguck: 🎲
+       |  + Flaggensprache (+3)
+       |   + Ausguck: 🎲
+       |    + Flaggensprache (+3)
+       + Kann Handlangern/Matrosen Befehle geben (auch während Gefechten) → Standard ist, bloß Befehle an Handlangern/Matrosen an einer Station, dauert ⏱️
+       |+ Ein ganzes Deck ansprechen
+    T  ||+ Taktik-Befehle TODO
+       || + Antreiben (temporär +🛠️ für Handlanger/Matrosen), dauert ⌛, für alle auf dem gleichen Deck mit der gleichen Aufgabe
+       ||  + Befehle geben an "benachbarte" Decks möglich (Alles über dem Hauptdeck zählt dafür als ein Deck)
+       ||   + Innerhalb von ⏱️ können beliebig viele Befehle geben werden
+       |+ "Bewegung" 🥾🥾
+       | + instant-bewegung zu benachbarten Decks des eigenen Schiffs
+       |  + instant-bewegung zu allen Decks des eigenen Schiffs
+       + Reparieren/Pumpen/Takelage: 🛠️
+        + [ → "Bewegung"]
+        + Reparieren/Pumpen/Takelage: 🛠️🛠️
+        |+ Reparieren/Pumpen/Takelage: 🛠️🛠️
+        | + Reparieren/Pumpen/Takelage: 🛠️🛠️
+        |  + Einmal pro Schiffskampfrunde ist Reparieren/Pumpen/Takelage in ⏱️ möglich
+        + Entern aus der Takelage ohne dass das Schiff in Enterposition ist, sofern Reichweite in der aktuellen Runde an 0 "vorbeigeht"
+         + Rückkehr unabhängig von Enterposition
+          + Entern kostet 🥾 (statt ⌛)
+           + Handlanger-Instakill beim Betreten des gegn. Schiffes
+            + Sabotage am feindlichen Schiff (TODO definieren)
+             + Double-Handlanger-Instakill beim Betreten des gegn. Schiffes
 
 

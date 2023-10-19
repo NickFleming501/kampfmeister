@@ -24,12 +24,14 @@ Charaktererstellung
 
 ### Charaktererstellungspunkte
 
-- Attributspunkte
-- Kampfkunstpunkte
-- Professionspunkte
-- Freie Punkte (frei wählbar ob Kampfkunstpunkt oder Professionspunkt)
+- Attributspunkte: 15
+- Kampfkunstpunkte: 15
+- Professionspunkte: 15
+- Freie Punkte 10 (frei wählbar ob Kampfkunstpunkt oder Professionspunkt)
 
 ### Attribute
+
+Attribute starten auf 1
 
 1 🌑  Verstohlenheit  
 2 🏔️  Zähigkeit  
@@ -166,6 +168,20 @@ Kampfkünstler und Handlanger haben unterschiedliche Regeln.
 - bei Verteidigung zählen für einen verwundeten Handlanger nur die ersten (Hstat) Verteidigungs-Würfel
 
 #### Detailierte Wunden
+
+Jede Wunde zieht Symbole ab, abhängig von der verursachenden Waffe:
+
+                        Nutzen  	Möglich  	Wunde
+    Leicht Spitz        🌑⛈️❤️☀️	🏔️⚔️    	⛈️
+    Leicht Scharf       🌑⛈️❤️  	🏔️⚔️☀️  	⚔️
+    Ausgewogen Stumpf   🏔️⛈️❤️  	🌑⚔️☀️  	☀️
+    Ausgewogen Spitz    🏔️⛈️❤️☀️	🌑⚔️    	🌑
+    Schwer Stumpf       ⚔️⛈️    	🏔️🌑❤️☀️	🏔️
+    Schwer Scharf       ⚔️⛈️    	🏔️🌑❤️☀️	❤️
+
+Leichte Wunden ziehen 1 Symbol ab, Normale 2 und Schwere 3.
+
+Wenn mehr Symbole abgezogen werden, als der Kampfmeister Würfel hat, verliert der Kampfmeister das Bewusstsein
 
 ##### Stumpfe Wunden
 

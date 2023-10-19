@@ -401,21 +401,21 @@ Build-your-own-Schiff
         - Crew min: 1
         - Crew max: 3
         - Nachladekosten: 12🛠️
-        - Schaden: 4
+        - Schaden: 2
         - Reichweite: 15
         - Größe/Gewicht: 1
     - Mittel
         - Crew min: 1
         - Crew max: 4
         - Nachladekosten: 24🛠️
-        - Schaden: 6
+        - Schaden: 3
         - Reichweite: 20
         - Größe/Gewicht: 1
     - Schwer
         - Crew min: 2
         - Crew max: 6
         - Nachladekosten: 48🛠️
-        - Schaden: 10
+        - Schaden: 5
         - Reichweite: 25
         - Größe/Gewicht: 1.5
     - (Standard)Mörser: Verwendet immer Distanz "Groß" und Feuerposition "Ideal"
