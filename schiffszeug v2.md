@@ -5,19 +5,19 @@ Ablauf Schiffskampf
 -------------------
 
 1. (A1 Steuermannwurf → nur am Anfang)
-2. B1 Steuermannwurf
-3. B2 Eigene Feuerposition verändern
-4. B3 Distanz verändern (um Differenz beider Schiffe)
-5. A4 Manöver / Gegnerische Feuerposition verändern
-6. A5 Wasser rein
-7. A6 Crew-Aktionen
-8. A1 Steuermannwurf
-9. A2 Eigene Feuerposition verändern
-10. A3 Distanz verändern (um Differenz beider Schiffe)
-11. B4 Manöver / Gegnerische Feuerposition verändern
-12. B5 Wasser rein
-13. B6 Crew-Aktionen
-14. (↑ Zurück zu 2. (B1))
+2. B4 Steuermannwurf
+3. B5 Eigene Feuerposition verändern
+4. B6 Distanz verändern (um Differenz beider Schiffe)
+5. A1 Manöver / Gegnerische Feuerposition verändern
+6. A2 Wasser rein
+7. A3 Crew-Aktionen
+8. A4 Steuermannwurf
+9. A5 Eigene Feuerposition verändern
+10. A6 Distanz verändern (um Differenz beider Schiffe)
+11. B1 Manöver / Gegnerische Feuerposition verändern
+12. B2 Wasser rein
+13. B3 Crew-Aktionen
+14. (↑ Zurück zu 2. (B4))
 
 Kampfende
 ---------
@@ -43,11 +43,11 @@ Die Distanz ändert sich immer um die Geschwindigkeit beider Schiffe, d.h. es z�
 Distanz       | Abstand | Manövergedöns | Kanonen-Wurf  | Ausguck-Wurf           | GFPV-Faktor
 --------------|---------|---------------|---------------|------------------------|------------
 Enterposition | -1      | Unmöglich     |               |+🌑🏔️❤️⚔️⛈️☀️           | Unmöglich
-Enter         | 0       | +🌑🏔️         |               |+🌑🏔️❤️⚔️⛈️☀️           | 1.0
-Kurz          | 1-6     |               | ⛈️            |+🌑🏔️❤️⚔️⛈️☀️           | 0.5
-Mittel        | 7-18    | -🌑🏔️         | ⛈️❤️⚔️        |                        | 0.33
-Groß          | 19-36   | -🌑🌑🏔️🏔️     | ⛈️❤️⚔️🌑🏔️    |-🌑🏔️❤️⚔️⛈️             | 0.2
-Sichtweite    | 37-60   | Unmöglich     | ⛈️❤️⚔️🌑🏔️☀️  |-🌑🌑🏔️🏔️❤️❤️⚔️⚔️⛈️⛈️☀️ | 0.1
+Enter         | 0       | +🌑🏔️         |               |+🌑🏔️❤️⚔️⛈️☀️           | *6
+Kurz          | 1-6     |               | ⛈️            |+🌑🏔️❤️⚔️⛈️☀️           | *3
+Mittel        | 7-18    | -🌑🏔️         | ⛈️❤️⚔️        |                        | *2
+Groß          | 19-36   | -🌑🌑🏔️🏔️     | ⛈️❤️⚔️🌑🏔️    |-🌑🏔️❤️⚔️⛈️             | *1
+Sichtweite    | 37-60   | Unmöglich     | ⛈️❤️⚔️🌑🏔️☀️  |-🌑🌑🏔️🏔️❤️❤️⚔️⚔️⛈️⛈️☀️ | *0.5
 
 Enterposition (-1) → Kanonen können nicht verwendet (Ausnahme: Dreh-Bassen)
 
@@ -59,11 +59,11 @@ Ein Steuermann kann pro ⚔️ die Feuerposition seines Schiff entsprechend um d
 
 Feuerpos. | Winkel  | Winkel    | Bewegungsfaktor | GFPV-Faktor | Kanonen-Wurf
 ----------|---------|-----------|-----------------|-------------|--------------
-Ideal     |  1 – 0  |   0 – -1  | *0.0            | *1.0        | -
-Gut       |  4 – 2  |  -2 – -4  | *0.5            | *1.0        | 🏔️
-Mittel    |  5 – 7  |  -5 – -7  | *0.75           | *0.75       | 🏔️❤️☀️
-Schlecht  |  8 – 10 |  -8 – -10 | *1.0            | *0.5        | 🏔️❤️☀️🌑⛈️
-Unmöglich | 11 – 12 | -11 – -12 | *1.0            | *0.0        | 🏔️❤️☀️🌑⛈️⚔️
+Ideal     |  1 – 0  |   0 – -1  | *0.0            | *4          | -
+Gut       |  4 – 2  |  -2 – -4  | *0.5            | *4          | 🏔️
+Mittel    |  5 – 7  |  -5 – -7  | *0.75           | *3          | 🏔️❤️☀️
+Schlecht  |  8 – 10 |  -8 – -10 | *1.0            | *2          | 🏔️❤️☀️🌑⛈️
+Unmöglich | 11 – 12 | -11 – -12 | *1.0            | *0          | 🏔️❤️☀️🌑⛈️⚔️
 
 Aktionen
 --------
@@ -151,31 +151,84 @@ Matrosen
 
 Steuermann
 
+- Input: Würfelpool, Gegnerischer Würfelpool
+- Output: Veränderung von Eigener Feuerposition, Veränderung von Gegnerischer Feuerposition, Coole Manöver
+- Post-Output: Eigene Feuerposition, Distanz
+- Post-Post-Output: Gegnerische Feuerposition, GFPV-Faktor, Schnelligkeit, Wendigkeit
+
+    🌑  Dunkel   Gegner
+    🏔️  Berg     Selbst
+    ❤️  Herz     Selbst
+    ⚔️  Waffe    Selbst, Gegner
+    ⛈️  Sturm    Selbst, Gegner
+    ☀️  Licht    Selbst
+
+    Veränderung der Eigenen Feuerposition: Drehung um bis zu ((Anzahl Treffende Symbole) * 0.5 * Wendigkeit)
+    Veränderung der Gegnerischer Feuerposition: Drehung um bis zu ((Anzahl Treffende Symbole) * (2*Schnelligkeit + Wendigkeit) * GFPV(Distanz) * GFPV(Feuerposition) / 100)
+
+    + Steuermann: 🎲🎲, (🔂️🔂️🔂️) 1️⃣1️⃣ → ⛵
+     + Steuermann: 🎲
+      + Steuermann: 🎲
+       + Steuermann: 🎲
+       |+ 2️⃣ → Gegner-Verteidigung zählt als -1️⃣ (gleiches Symbol)
+       | + Steuermann: 🎲
+       |  + [Symbolgeschubse]
+       |   + Steuermann: 🎲
+       |    + [Symbolgeschubse]
+       |     + Steuermann: 🎲
+       |      + [Symbolgeschubse]
+       |       + Steuermann: 🎲
+       |        + [Symbolgeschubse]
+       |         + Steuermann: ⛈️
+       + 
+       |+
+       | +
+       |  +
+       |   +
+       |    +
+       |     +
+       |      +
+       + [Energiedings]
+        + ⛵⛵ → 🎲
+         +
+          +
+           +
+            +
+             +
+              +
+
+- TODO: Unterstützung durch Gruppe (andere Kampfmeister auf eigenem Schiff)
+    - Ausguck: Durch Untiefen/Felsen navigieren (Fliehen); Abkürzung finden (Verfolgen)
+
+- "Enterposition einnehmen" -> Kombo mit 4tem Baum
+- "Rammen" -> Kentern oder Entern oder Löcher
+- "Zeug umschiffen" UND 1-2 Masten
+- "Drehung vortäuschen" UND 3-4 Masten
+- "Ausweichen" UND 1-2 Masten -> gegen Gegnerische Kanonen (weniger Trifft?)
+- "Wackeln" UND 3-4 Masten -> gegen Gegnerische Kanonen (weniger Schaden?)
+- TODO: Seemonster-spezifisches Zeug
+
 Kannonier
 
-- Input: Distanz, Feuerposition, Würfelpool
-- Output: Prozentzahl der relevanten Kanonentreffer
-    -> 10% pro treffendem Symbol, maximal 100%
-- Post-Output: Kanonenanzahl, Kanonentyp
-- Maximal 10 Würfel
+- Treffer: 10% der Kannonen treffen pro treffendem Symbol, maximal 100% (jeweils X% der leichten, X% der mittleren, usw., separat und gerundet)
 - 1 Kannonier befehligt genau 1 Deck
-- 2️⃣ → Gegner-Verteidigung zählt als -1️⃣ (gleiches Symbol)
+- Verbrauch: (TODO) 1 Usage die für jegliche Art von Spezialmunition (Kettenschuss, etc., aber nicht Doppel-/Dreifachschuss)
+    - Evtl. Usage die im Baum erhöhen
 
-
-    + Kanonier: 🎲🎲, (🔂️🔂️🔂️) 1️⃣1️⃣ → ⚡️
+    + Kanonier: 🎲🎲, (🔂️🔂️🔂️) 1️⃣1️⃣ → 🎯 -> Löcher
      + Kanonier: 🎲
       + Kanonier: 🎲
-       + Kettenschuss
-       |+ Schrapnell
-       | + Kanonen zerstören (⚡️)
-       |  + Doppelschuss
-       |   + Improvisiertes Geschoss (Schwächer als Schrapnell, aber kein Verbrauch)
-       |    + Feuerschuss
-       |     + Ruder abschießen (⚡️)
-       |      + Spinnenschuss
-       |       + Dreifachschuss
-       |        + Bombenschuss
-       |         + Pulverlager (⚡️)
+       + Kettenschuss -> Segel-HP
+       |+ Schrapnell -> Arbeitskraft
+       | + Kanonen zerstören (🎯) (Dunkel, Sonne -> Zerstört Treffer-viele Kannonen beim Gegner)
+       |  + Doppelschuss (Sonne + Berg ausgeben, dann treffende Kannonen% verdoppeln) -> Löcher
+       |   + Improvisiertes Geschoss (Schwächer als Schrapnell, aber kein Verbrauch) -> Arbeitskraft
+       |    + Feuerschuss -> Segel-HP & Arbeitskraft & Moral
+       |     + Ruder abschießen (🎯) (Dunkel, Schwert -> Wendigkeit um 1 reduziert) (evtl. Steuermann-Würfel reduzieren)
+       |      + Spinnenschuss -> Segel-HP
+       |       + Dreifachschuss (Sonne, Berg, Dunkel ausgeben, dann treffende Kannonen% verdreifachen) -> Löcher
+       |        + Bombenschuss -> Löcher & Moral, ignoriert Panzerung
+       |         + Pulverlager (🎯) (Ausguck, Herz, Berg -> Schiff Tot)
        + Kanonier: 🎲
         + Kanonier: 2️⃣ → Gegner-Verteidigung zählt als -1️⃣ (gleiches Symbol)
          + Kanonier: 🎲
@@ -187,6 +240,8 @@ Kannonier
                + Kanonier: ⚔️
                 + [TODO Symbolgeschubse]
                  + Kanonier: ☀️
+
+- TODO: Seemonster-spezifisches Zeug
 
 - TODO: Unterstützung durch Gruppe (andere Kampfmeister auf eigenem Schiff)
 
@@ -211,7 +266,35 @@ Kannonier
 
 Sonstiges
 
+- 🧭
+
+- Ausguck:
+    - Untiefen spähen / Wasserumgebung auskundschaften
+    - Pulverlager/Schwachstellen finden
+- Antreiben
+- "Lauter Schreien": Befehle an andere Decks geben
+- Bewegungsgedöns incl. Insta-Move
+
 4ter
+
+- ☠️
+
+- Drehbasse gegen Verteidigungswürfel (vgl. Kampfmeister, aber von z.B. Matrosenqualität abhängig)
+    - Mörser ähnlich, aber anders durch Distanz beeinflusst (z.B. wie bei Kannone, aber Feuerpositions-Schwierigkeit durch Würfel ersetzen?)
+- Seemonster harpunieren
+- "Mörder-Mörser" Mörser: 5️⃣ → Instakill
+- Mörser: Distanz wird "Mittel" behandelt
+- "Mitnehmen" kann Drehbasse mitnehmen
+- Drehbassen: Reichweite +2
+- VIP-Schuss
+- (Rückkehr unabhängig von Enterposition)
+- Sabotage am feindlichen Schiff
+    - Rüberschwingen
+- Entern einleiten
+
+Seemonster-Angriffsbaum
+
+- 🐙
 
 Build-your-own-Schiff
 ---------------------
@@ -267,35 +350,35 @@ Build-your-own-Schiff
     - Dreh-Basse: wird wie Fernkampfwaffe verwendet
         - Crew min: 1
         - Crew max: 2
-        - Nachladekosten: 8🛠️
+        - Nachladekosten: 5🛠️
         - Personenschaden: 1
         - Reichweite: 2
         - Größe/Gewicht: 1
     - Leicht
         - Crew min: 1
         - Crew max: 3
-        - Nachladekosten: 12🛠️
+        - Nachladekosten: 8🛠️
         - Schaden: 2
         - Reichweite: 15
         - Größe/Gewicht: 1
     - Mittel
         - Crew min: 1
         - Crew max: 4
-        - Nachladekosten: 24🛠️
+        - Nachladekosten: 15🛠️
         - Schaden: 3
         - Reichweite: 20
         - Größe/Gewicht: 1
     - Schwer
         - Crew min: 2
         - Crew max: 6
-        - Nachladekosten: 48🛠️
+        - Nachladekosten: 30🛠️
         - Schaden: 5
         - Reichweite: 25
         - Größe/Gewicht: 1.5
     - (Standard)Mörser: Verwendet immer Distanz "Groß" und Feuerposition "Ideal"
         - Crew min: 2
         - Crew max: 10
-        - Nachladekosten: 120🛠️
+        - Nachladekosten: 75🛠️
         - Personenschaden: 10
         - Reichweite: 36
         - Größe/Gewicht: 3, Maximal floor(Masten/2) pro Schiff (0,1,1,2)
@@ -314,5 +397,4 @@ Build-your-own-Schiff
 - Zum Kentern bringen: KO
 - Zerbrechen lassen: KO
 - Auf Grund auflaufen lassen: KO
-
 
