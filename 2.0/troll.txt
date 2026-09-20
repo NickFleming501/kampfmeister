@@ -1,0 +1,47 @@
+/Perfect Block:
+
+x:=8d6;
+y:= if (count (x keep {1})) = 0
+then 
+{x,1} else 
+{x,2};
+ys:= if (count (y keep {3})) = 0
+then 
+{y,3} else 
+{y,4};
+count different ys
+
+
+
+
+
+Würfelabschätzung:
+---------------
+        0/1 feste   2 feste   3 feste     5w + Flip 2(1 symbol aus 2 möglichen)   4w+2flip
+Halb+ Block(3+ Symbole):
+3🟦     55%
+4🟦     83%
+6🟦     98%
+7🟦     99%
+2/3+ Block(4+ Symbole):
+4🟦     27,8%
+6🟦     74,8%      78,7%      87,5%                                               97%
+7🟦     86,4%
+5/6+ Block(5+ Symbole):
+6🟦     24,7%       27,7%     36,1%       37%                                     59,2%
+7🟦     41,4%                             68%
+10🟦    77,8%                             85,2%                                   94,5%
+Perfect Block(alle 6 Symbole):
+6🟦     1,5%        1,8%      2,7%        3%                                      7,4%
+7🟦     5,4%        6,1%                  9,2%                                    18,5%
+8🟦     11,4%       12,6%                 17,4%                                   30,3%
+9🟦     18,9%       20,4                  26,4%                                   41,4%
+10🟦    27,1%       28,8%                 35,4%                                   51,1%
+Block X(spez. Symbol):  2x      3x      4x
+6🟦     66,5%           26,3%   6,2%    0,9%
+7🟦     72%             33%     9,5%    1,7%
+8🟦     76,7%           39,5%   13,5%   3%
+
+=> MAX tank typ hat ~8🟦/🟪 + 2 Flip's
+=> Norm Kampfmeister: 6-7🟦/🟪
+=> Handlanger: 3-4🟦/🟪
