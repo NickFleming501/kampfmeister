@@ -57,32 +57,12 @@ Kevin hat Laufen/Rennen auf level 3 und will noch besser sprinten können um Spr
 
 Beispiele für Skills:
 - Basteln
-- Wissen: Mystisch/Okult/Religiös
-- Wissen: Militärisch
-- Wissen: Ettikete/Gesetzte/Politik
-- Wissen: Historie/Kulturen
 - Wissen: Natur
-- Wissen: Herstellung
-- Schleichen
-- Täuchen
-- Verhören
 - Laufen/Rennen
-- Schwimmen/Tauchen  
-- Resistenz(gift/heiß/kalt/...)
-- Ausdauer
-- Überreden/Diplomatie
 - Verführen/Bestechen
-- Verhandeln
-- Straßenwissen/'Zuhören'
-- Tiere
-- Auftreten
 - Kraft
-- Klettern  
-- Springen/Schwingen/Landen
-- Schwimmen/Tauchen
 - Turnen/Balancieren
 - Suchen  
-- Gefahrensinn
 
 ### Wunden
 
