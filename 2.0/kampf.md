@@ -14,6 +14,8 @@ Kampf-Regeln
     (🗡️) -> Nur für Angriff/Angriffsskill
     (🛡️) -> Nur für Verteidigung/Verteidigungsskill
 
+    🔫 -> Fernkampf effekt(Nur nutzbar gegen 'entfernte' Ziele)
+
     🟥  Angriff/Aktions Würfel
     🟦  Verteidigungs/Reaktions Würfel
     🟪  Variabeler Würfel(Kann als 🟥 oder 🟦(Spielerentscheidung) benutzt werden)
@@ -212,9 +214,6 @@ Kampf-Skilltree
 
 Jeder Knoten kostet 1 Punkt(außer anders angegeben) & Erfordert alle Elternkoten.
 
-## Haupt-Baum
-
-    Start:
     + Ohne Rüstung(Basis/'Kostenloser' start des Baums): -⛈️(🛡️)
     | + Mit Arm- & Beinschienen: 🟪
     | |  + Beinarbeit: 🟪
@@ -247,7 +246,7 @@ Jeder Knoten kostet 1 Punkt(außer anders angegeben) & Erfordert alle Elternkote
       |   + Energie: ⚡️⚡️ → ☀️
       + Einhandwaffen: 🟥
       | + [Waffen Baum] (waffenspezifisch) (siehe unten)
-      | + Schild: 🟦🟦(gegen Fernkampf)
+      | + Schild: 🟦🟦(gegen 🔫)
       | | + Schild: +🌑(🛡️)
       | |   + Schild: +❓(🛡️)(1x pro runde)
       | |     + Schild & Aktiv: "Schild-Bash" 🏔️⚡️⚡️ → Beliebiger Kampfteilnehmer -⚡️ (zählt zu 5⚡️ Limit) und -🎲🎲 für nächsten Wurf
@@ -255,7 +254,7 @@ Jeder Knoten kostet 1 Punkt(außer anders angegeben) & Erfordert alle Elternkote
       | | + Tricks: (🔂️) 🌑 → Gehaltener Gegenstand wird eingesetzt oder geworfen, Effekt abhängig von Gegenstand
       | |   + Tricks: (🔂️) Ein Gegenstand aus der Umgebung kann aufgehoben werden, falls kein relevanter Gegenstand bisher erwähnt wurde, wird ausgewürfelt¹
       | |     + Fiese Tricks: 🌑🌑(🗡️)
-      | + Schießen(Fernkampf): 🟥🟥🟥☀️☀️(🗡️) extra Angriff auf entferntes Ziel → -🟦 für nächste Runde
+      | + Schießen: 🟥🟥🟥☀️☀️(🔫) extra Angriff auf entferntes Ziel → -🟦 für nächste Runde
       | | + Pistole: ⚡️⚡️ → Auswecheln('Nachladen')
       | |   + Schießen(Nahkampf): 🟥🟥☀️(🗡️); Gegner -☀️(wenn kein Schild)
       | |     + Pistole als Nebenwaffe: 🟪🟥
@@ -269,14 +268,37 @@ Jeder Knoten kostet 1 Punkt(außer anders angegeben) & Erfordert alle Elternkote
       + 2handwaffen: 🟥
       | + [Waffen Baum] (waffenspezifisch) (siehe unten)
         + (Echt-)Längere Waffe als längste Waffe des Gegner: "Abstand" (🔂️) ⛈️⛈️ → Gegner -50% 🟥 bis gekonntert mit ❤️??
-          + Mittellang: 🟥🟥🟥
+          + Mittellang: 🟥🟥⛈️(🗡️)
           | + AOE Schlag: (🔂️🔂️) ⚡️-🟥 → Angriff trifft +1 Ziel in Reichweite/+50% Wirkung gegen Handlanger (alle Aktionen werden gegen alle Zeile gleich   eingesetzt können sich einzelne Ziele gegen Aktionen wehren wirken diese nicht auf dieses Ziel)
           |   + Mittellang: ???
           + Lang: 🟪🟪
             + Reichweite: ??
               + Lang: ??
 
-¹ Zufällige Gegenstände aus der Umgebung:
+## Waffen Baum(Je waffe also z.b. Säbel parallel zu Keule...)
+    + Hauptwaffe: 🟥
+     + Hauptwaffe: 🟥
+     |+ Hauptwaffe: 🔏(🛡️)
+     ||+ Hauptwaffe 🛡️: (🔂️) 1️⃣ -> ↩️🟪
+     || + Hauptwaffe: 🟪
+     ||  + Hauptwaffe 🛡️: (🔂️) 1️⃣ -> ↩️🟪
+     |+ Hauptwaffe: 🗝️(🗡️)
+     | + Hauptwaffe: 🟥
+     |  + Hauptwaffe 🗡️: 🔑 → 🗝️
+     |   + Hauptwaffe: 🔑(🗡️)
+     |    + Hauptwaffe 🗡️: 🗝️ → 🔑
+     |     + Hauptwaffe: 🔑(🗡️)
+     + Hauptwaffe 🗡️: 1️⃣1️⃣1️⃣ → 🔑
+      + Hauptwaffe 🗡️: Spezialangriff 1
+       + Hauptwaffe 🗡️: Spezialeffekt 1
+        + Hauptwaffe 🗡️: 1️⃣1️⃣ → 🔑
+         + Hauptwaffe 🗡️: Spezialangriff 2
+          + Hauptwaffe 🗡️: Spezialeffekt 2
+           + Hauptwaffe 🗡️: (🔂️) 1️⃣ → 🔑
+            + Hauptwaffe 🗡️: Spezialangriff 3
+
+## Spezialfähigkeiten & co
+### Tricks: ¹ Zufällige Gegenstände aus der Umgebung
 
 Wurf | Gegenstand | Effekt
 -----|------------|--------
@@ -289,25 +311,30 @@ Wurf | Gegenstand | Effekt
 
 \* Sieht aus wie eine Granate, ist aber keine
 
-## Waffen Baum
-    + Hauptwaffe: 🟥
-     + Hauptwaffe: 🟥
-     |+ Hauptwaffe: 🔏(🛡️)
-     ||+ Hauptwaffe 🛡️: (🔂️) 1️⃣ -> ↩️🟪
-     || + Hauptwaffe: 🟪
-     ||  + Hauptwaffe 🛡️: (🔂️) 1️⃣ -> ↩️🟪
-     |+ Hauptwaffe: 🗝️(🗡️)
-     | + Hauptwaffe: 🟥
-     |  + Hauptwaffe: ??
-     |   + Hauptwaffe: 🔑(🗡️)
-     |    + Hauptwaffe: ??
-     |     + Hauptwaffe: 🔑(🗡️)
-     + Hauptwaffe 🗡️: 🔑🔑 → ❓, 1️⃣1️⃣1️⃣ → 🔑
-      + Hauptwaffe 🗡️: Spezialangriff 1
-       + Hauptwaffe 🗡️: 🔑 → 🗝️
-        + Hauptwaffe 🗡️: 1️⃣1️⃣ → 🔑
-         + Hauptwaffe 🗡️: Spezialangriff 2
-          + Hauptwaffe 🗡️: 🗝️ → 🔑
-           + Hauptwaffe 🗡️: (🔂️🔂️) 🔑 → ❓
-            + Hauptwaffe 🗡️: Spezialangriff 3
+### Beispiele für Spezialangriffe
+Spezialangriffe sind immer gegen ein Ziel gerichtet(können aber auch den Angriffswurf selbst verändern und somit vor dem Angriff benutzt werden z.b. AOE Effekt ähnlich dem AOE Schlag der mittleren 2-Händer)
 
+Waffe | Fähigkeitsnummer | Fähigkeit
+------|------------------|--------------
+Säbel | Spezialangriff 1 | "Blutende Wunde" 🔑🔑⚡️⚡️ → Normale Wunde, die nicht reduziert werden darf
+Säbel | Spezialangriff 2 | "Finte" 🔑🔑⚡️⚡️ → Gegner muss neu würfeln und darf neu Passiv einsetzen (Vorherige Passive werde aufgehoben)
+Säbel | Spezialangriff 3 | "Zweiter Angriff" 🔑🔑🔑⚡️⚡️⚡️ → Zweiter Wurf nach Abschluss der Aktiven Phase, mit nur Aktiv
+Langschwert| Spezialangriff 1| "Mit der Stumpfen Seite schlagen" 🌑🔑⚡️⚡️ → Wunde macht 🏔️ Schaden
+Langschwert| Spezialangriff 2| "Konter/Ausfallschritt" 🔑🔑⚡️⚡️ → Neuer Wurf während der Aktiven Phase, mit nur Aktiv -> Muss erste Aktion der Aktiv-Phase sein
+Langschwert| Spezialangriff 3| "Grausame Wunde" 🔑🔑⚡️⚡️ → Starke Wunde, die nicht reduziert werden darf
+Handaxt|Spezialangriff 1 | "Rüstungsbrecher" X+⚡️⚡️ → Wunde ignoriert Rüstung.
+Handaxt|Spezialangriff 2 | "Narcosehammer" 🔑🔑🔑⚡️⚡️⚡️ → Gegner -⚡️⚡️⚡️ (zählt zu ⚡️ Limit) und -🎲🎲🎲 für nächsten Wurf
+Handaxt|Spezialangriff 3 | "Schädelspalter" 🔑🔑🔑⚡️⚡️⚡️⚡️⚡️ → Tötet den Gegner. Punkt.
+Großaxt|Spezialangriff 1 | "Taumelschlag" 🔑⚡️ → Gegner -⚡️ (zählt zu ⚡️ Limit) und -🎲 für nächsten Wurf
+Großaxt|Spezialangriff 2 | "Schmetterschlag" X🔑 und X⚡️ → Macht eine X Wunde und bringt Gegner auf X Abstand (muss X ❤️ ausgeben, um angreifen zu können)
+Großaxt|Spezialangriff 3 | "Schädelspalter" 🔑🔑🔑⚡️⚡️⚡️⚡️⚡️ → Tötet den Gegner. Punkt.
+
+### Beispiele für Spezialeffekte
+Anders als Spezialangriffe sind Spezialeffekte auf den Anwender gerichtet. Ein Verteidiger kann diese NICHT blockieren.
+
+Waffe | Fähigkeitsnummer | Fähigkeit
+------|------------------|--------------
+Säbel | Spezialeffekt 1 | (🔂️)🔑 → ❓
+Säbel | Spezialeffekt 2 | 🔑 → ❓
+Handaxt|Spezialeffekt 1 | +⚡️ pro Runde
+Handaxt|Spezialeffekt 2 | (🔂️)⚡️🔑 → Gegner -🔑
