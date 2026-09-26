@@ -13,6 +13,7 @@ Kampf-Regeln
     🔏 -> Verteigungkontersymbol
     (🗡️) -> Nur für Angriff/Angriffsskill
     (🛡️) -> Nur für Verteidigung/Verteidigungsskill
+    🎖️  Militärische auszeichnung/rang erlaubt einfache Soldaten zu kommandieren.
 
     🔫 -> Fernkampf effekt(Nur nutzbar gegen 'entfernte' Ziele)
 
@@ -55,7 +56,7 @@ Kampfsystem
 Handlanger haben einen vereinfachten Skilltree:
     + 🟦🟥, 1 HP (wenn 1/2 der Handlanger weg Aufgabe)
       + Hohe Moral(Alle Handlanger müssen besiegt werden)
-        + Mit 'Anführer': 'auf Komando' +N🟥(N=Handlangergruppengröße)
+        + Mit 'Anführer'(siehe 'Kommando'subbaum): 'auf Komando' +N🟥(N=Handlangergruppengröße)
         + +1 HP('bis zum Tod': Handlanger sterben IMMER)
           + Berserker: 🟥, 🟪 immer als 🟥, +1 HP
       + +1 HP (Zäh)
@@ -244,6 +245,17 @@ Jeder Knoten kostet 1 Punkt(außer anders angegeben) & Erfordert alle Elternkote
       |  |+ Energie: ⚡️⚡️ → ⛈️
       |  + Energie: ☀️ → ⚡️
       |   + Energie: ⚡️⚡️ → ☀️
+      + Kommando: Energielimit -1(wenn Handlanger vorhanden); Bis zu 2 Handlanger(max: 2 Kampfpunkte, Attribute: alles auf 2 + 3 freie Punkte) !müssen seperat rekrutiert werden!
+      | + Bessere Handlanger(erfordert 🎖️): +1 Kampfpunkt, +6 Attributspunkte
+      | | + Bessere Handlanger(erfordert 🎖️🎖️): +2 Kampfpunkte
+      | |   + Bessere Handlanger(erfordert 🎖️🎖️): +1 Kampfpunkt
+      | |     + Bessere Handlanger(erfordert 🎖️🎖️🎖️): +1 Kampfpunkt
+      | |       + Bessere Handlanger(erfordert 🎖️🎖️🎖️): +1 Kampfpunkt
+      | |         + Bessere Handlanger(erfordert 🎖️🎖️🎖️): +1 Kampfpunkt
+      | + Mehr Handlanger(erfordert 🎖️): bis zu 3
+      |   + Mehr Handlanger(erfordert 🎖️🎖️): bis zu 4
+      |     + Mehr Handlanger(erfordert 🎖️🎖️🎖️): bis zu 5
+      |       + Mehr Handlanger(erfordert 🎖️🎖️🎖️🎖️): bis zu 6
       + Einhandwaffen: 🟥
       | + [Waffen Baum] (waffenspezifisch) (siehe unten)
       | + Schild: 🟦🟦(gegen 🔫)
