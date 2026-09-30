@@ -73,7 +73,7 @@ Handlanger haben einen vereinfachten Skilltree:
 
 - Initiative bestimmen(Skillprobe: ⛈️ für Angreifer/Initiatoren, ☀️/Gefahrensinn für Angegriffene)
   - es zählen ⚔️⛈️☀️ Erfolge bei gelichstand ist der Initiator eher dran.
-- Wer dran ist Würfelt mit 🟥 und allen übrigen 🟪
+- Wer dran ist Würfelt mit 🟥 und allen übrigen 🟪*
   - Vor und nach dem Wurf können skills eingesetzt werden um den Angriffswurf zu modifizieren(alles was symbole/würfel ändert).
 - und bestimmt (danach) ein Angriffsziel (oder mehrere wenn ein entspechender AOE skill benutzt wurde)
 - Der angegriffene Würfelt mit 🟦 und einer beliebigen Menge (übriger) 🟪(Benutzte 🟪 sind erst wieder nach dem nächsten 🟥 Wurf verfügbar) seine Verteidigung.
@@ -83,6 +83,37 @@ Handlanger haben einen vereinfachten Skilltree:
 - Der Angreifer kann Angriffskills einsetzten/Schaden machen
   - Alle skills die den Gegner betreffen und min. 1 symbol benutzen das der Gegner in seiner Verteidigung gewürfelt hat sind Effektlos gegen diesen Gegner.
 - Der nächste ist dran
+
+### * Sonstige Aktionen
+Statt einem Angriff kann auch eine der folgenden Aktionen ausgeführt werden:
+- Gegenstand/Waffe ziehen/bereit machen
+- Bewegung(siehe nächste Sektion)
+- Generische Interaktion
+- ...
+
+#### Bewegung
+Die Entfernung zwische 2 Charakteren ist in 6 Zonen unterteilt:
+- Entfernt: kein Angriff möglich(mit 'Handwaffen')(Bewegung bis Fernkampf nicht näher definiert)
+- Fernkampf Lang(~75-150m): nur Fernkampf mit 'langer' Reichweite
+- Fernkampf Mittel(~20-75m): nur Fernkampf mit 'mittlerer' oder 'langer' Reichweite
+- Fernkampf Nah(~5-20m): nur Fernkampf
+- 'Umkreisen'(X-5m): gerade noch außerhalb der Nahkampfreichweite
+- Nahkampf(< Xm): Nahkampfangriff möglich
+!Je nach Waffenlänge ist die Distanz 'Umkreisen' u. Nahkampf nicht symetrisch!
+
+Eine Bewegung ermöglicht den wechsel zwischen 2 Zonen:
+- Rennen: +🟦(Fernkampf) -🟦(Nahkampf); +- 1 Fernkampf zone(oder Fernkampf Nah → Nahkampf)
+- Annähern: Fernkampf Nah → 'Umkreisen'
+- 'Sturmangriff': Fernkampf Nah → Nahkampf + Angriff(-🟦)
+- 'Ausfallschritt': 'Umkreisen' → Nahkampf + Angriff(-🟥🟥)
+- 'Zurückfallen': Nahkampf → 'Umkreisen' / 'Umkreisen' → Fernkampf Nah
+- 'Zurückfallen & Angriff': Nahkampf → 'Umkreisen' + Angriff(-🟥🟥) (Nur möglich wenn Waffe länger als die des Gegners)
+- 'Fliehen': Nahkampf → Fernkampf Nah(-🟦)
+
+Bei 'Fliehen' vs 'Sturmangriff' (oder Rennen vs Rennen) wird eine Konkurierende Sprintenprobe ausgeführt um zu sehen ob die Flucht/das Nachsetzen gelingt.
+Bei Erfolg(2+ Erfolge unterschied) des Fliehenden ändert sich die Distanz durch die Bewegung des Verfolgers nicht.
+Bei Gleichstand(<2 Erfolge unterschied) fällt sie wieder 'Umkreisen' (bzw. auf die vorherige Distanz bei Rennen vs Rennen)
+Bei Erfolg(2+ Erfolge unterschied) des Verfolgers verringert sie sich insgesammt um 1 Stufe.
 
 ### 'Duel'
 
@@ -251,7 +282,7 @@ Jeder Knoten kostet 1 Punkt(außer anders angegeben) & Erfordert alle Elternkote
       | |   + Bessere Handlanger(erfordert 🎖️🎖️): +1 Kampfpunkt
       | |     + Bessere Handlanger(erfordert 🎖️🎖️🎖️): +1 Kampfpunkt
       | |       + Bessere Handlanger(erfordert 🎖️🎖️🎖️): +1 Kampfpunkt
-      | |         + Bessere Handlanger(erfordert 🎖️🎖️🎖️): +1 Kampfpunkt
+      | |         + Bessere Handlanger(erfordert 🎖️🎖️🎖️🎖️): +1 Kampfpunkt
       | + Mehr Handlanger(erfordert 🎖️): bis zu 3
       |   + Mehr Handlanger(erfordert 🎖️🎖️): bis zu 4
       |     + Mehr Handlanger(erfordert 🎖️🎖️🎖️): bis zu 5
@@ -279,12 +310,12 @@ Jeder Knoten kostet 1 Punkt(außer anders angegeben) & Erfordert alle Elternkote
       | |     + Nebenwaffe: Konter 🌑🌑⚡️⚡️ → Gegner muss beim nächsten Angriff 'ohne Waffe' agieren
       + 2handwaffen: 🟥
       | + [Waffen Baum] (waffenspezifisch) (siehe unten)
-        + (Echt-)Längere Waffe als längste Waffe des Gegner: "Abstand" (🔂️) ⛈️⛈️ → Gegner -50% 🟥 bis gekonntert mit ❤️??
+        + (Echt-)Längere Waffe als längste Waffe des Gegner: kein Malus bei Bewegung + Angriff Aktionen
           + Mittellang: 🟥🟥⛈️(🗡️)
           | + AOE Schlag: (🔂️🔂️) ⚡️-🟥 → Angriff trifft +1 Ziel in Reichweite/+50% Wirkung gegen Handlanger (alle Aktionen werden gegen alle Zeile gleich   eingesetzt können sich einzelne Ziele gegen Aktionen wehren wirken diese nicht auf dieses Ziel)
           |   + Mittellang: ???
           + Lang: 🟪🟪
-            + Reichweite: ??
+            + Reichweite: (Echt-)Längere Waffe als längste Waffe des Gegner: Gegnerbewegung nach Nahkampf erzeugt IMMER -🟦🟥🟥 für Gegner
               + Lang: ??
 
 ## Waffen Baum(Je waffe also z.b. Säbel parallel zu Keule...)

@@ -74,8 +74,8 @@ Proben
 ------
 
 1.  Spielleiter wählt 1-6 Symbole, die als Erfolge zählen
-2.  Spieler wirft soviele Würfel, wie der Charakter entsprechend Attribut+Skill hat
-3.  Würfelergebnisse, die den Symbolen entsprechen werden gezählt(+- Boni/Mali auf die Probe)
+2.  Spieler wirft soviele Würfel, wie der Charakter entsprechend Attribut+Skill+Boni hat
+3.  Würfelergebnisse, die den Symbolen entsprechen werden gezählt(- Mali auf die Probe)
 4.  Würfelergebniss wird ausgewertet:
 - <0: Katastrophaler Fehlschlag
 - 0: Fehlschlag
@@ -90,6 +90,16 @@ Proben
 Kevin (⛈️ 3, Klettern 1) will einen Felsen hochklettern(SL legt 🏔️❤️ als Erfolge fest), weil Kevin grad vor Leuten wegrennt will er schnell klettern, der SL legt einen Malus von 1 fest.
 Kevin würfelt 🏔️❤️☀️⛈️: 2 Erfolge - 1 wegen Malus = 1 Erfolg
 Es gelingt Kevin den Berg zu erklimmen aber (☀️) er hinterlässt deutliche Spuren die späteren Verfolgern einen Bonus geben.
+
+### Konkurierende Proben
+
+#### Asymetrisches Problem(z.b. Überzeugung vs Willenskraft)
+Wie eine normale Probe nur dass die Symbole nicht vom SL gewählt werden sondern vom 'Ziel' als Skillprobe gewürfelt werden(Attribut+Skill+Boni-Mali Würfel).
+
+#### Symetrisches Problem(z.b. Verfolgungsjagt)
+1. Beide Würfeln (Attribut+Skill+Boni-Mali Würfel)
+2. Es werden von beiden jeweils die Würfel gezählt die der andere NICHT gewürfelt hat.
+3. Der mit mehr Erfolgen gewinnt.(bei Gleichstand keine Veränderung)(Für die Auswertung entspricht die Erfolgsdifferenz dem Würfelergibniss für eine normale Probe)
 
 {!kampf!}
 
