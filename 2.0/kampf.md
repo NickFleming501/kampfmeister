@@ -136,7 +136,6 @@ Bei Erfolg(2+ Erfolge unterschied) des Verfolgers verringert sie sich insgesammt
 #### Kampfkünstler
 
 - erfolgreiche Basis- und Spezialangriffe verursachen Wunden
-- mit N Energie kann eine Wunde der Stufe N um 1 reduziert werden
 
 #### Wunden
 
@@ -257,25 +256,26 @@ Jeder Knoten kostet 1 Punkt(außer anders angegeben) & Erfordert alle Elternkote
     |   + Gewöhnung: kein -⚔️(🛡️); +⛈️(🛡️) wird zu +❓(🏔️⛈️)(🛡️)
     |     + Meisterung: Energielimit +1
     + 🟦🟥🟪🟪, Waffe: 🟥
-      + Energie: Energielimit 3 (🔂️🔂️🔂️) 1️⃣1️⃣ → ⚡️
-      |+ Energie: N⚡️ reduzieren eine Stufe N Wunde um 1
-      | + Energie: (🔂️🔂️🔂️🔂️🔂️) -🟥/🟦 → ⚡️
-      |  + Energie: Energielimit +1
-      |  |+ Energie: Energielimit +1
-      |  | + Energie: Energielimit +1
-      |  + Energie 🛡️: ⚡️ → ↩️🟪
-      |  + Energie: 🌑 → ⚡️
-      |  |+ Energie: ⚡️⚡️ → 🌑
-      |  + Energie: 🏔️ → ⚡️
-      |  |+ Energie: ⚡️⚡️ → 🏔️
-      |  + Energie: ❤️ → ⚡️
-      |  |+ Energie: ⚡️⚡️ → ❤️
-      |  + Energie: ⚔️ → ⚡️
-      |  |+ Energie: ⚡️⚡️ → ⚔️
-      |  + Energie: ⛈️ → ⚡️
-      |  |+ Energie: ⚡️⚡️ → ⛈️
-      |  + Energie: ☀️ → ⚡️
-      |   + Energie: ⚡️⚡️ → ☀️
+      + Energie: Energielimit 3
+      |+ Energie: (🔂️🔂️) -🟥/🟦 → ⚡️
+      | + Energie: (🔂️) 1️⃣1️⃣ → ⚡️
+      |+ Energie: ⚡️⚡️ → reduzieren eine Wunde um 1 Stufe
+      | + Energie: Energielimit +1
+      | |+ Energie: Energielimit +1
+      | | + Energie: Energielimit +1
+      | + Energie 🛡️: ⚡️ → ↩️🟪
+      | + Energie: 🌑 → ⚡️
+      | |+ Energie: ⚡️⚡️ → 🌑
+      | + Energie: 🏔️ → ⚡️
+      | |+ Energie: ⚡️⚡️ → 🏔️
+      | + Energie: ❤️ → ⚡️
+      | |+ Energie: ⚡️⚡️ → ❤️
+      | + Energie: ⚔️ → ⚡️
+      | |+ Energie: ⚡️⚡️ → ⚔️
+      | + Energie: ⛈️ → ⚡️
+      | |+ Energie: ⚡️⚡️ → ⛈️
+      | + Energie: ☀️ → ⚡️
+      |  + Energie: ⚡️⚡️ → ☀️
       + Kommando: Energielimit -1(wenn Handlanger vorhanden); Bis zu 2 Handlanger(max: 2 Kampfpunkte, Attribute: alles auf 2 + 3 freie Punkte) !müssen seperat rekrutiert werden!
       | + Bessere Handlanger(erfordert 🎖️): +1 Kampfpunkt, +6 Attributspunkte
       | | + Bessere Handlanger(erfordert 🎖️🎖️): +2 Kampfpunkte
@@ -309,13 +309,13 @@ Jeder Knoten kostet 1 Punkt(außer anders angegeben) & Erfordert alle Elternkote
       | |   + Nebenwaffe: 🟦
       | |     + Nebenwaffe: Konter 🌑🌑⚡️⚡️ → Gegner muss beim nächsten Angriff 'ohne Waffe' agieren
       + 2handwaffen: 🟥
-      | + [Waffen Baum] (waffenspezifisch) (siehe unten)
+        + [Waffen Baum] (waffenspezifisch) (siehe unten)
         + (Echt-)Längere Waffe als längste Waffe des Gegner: kein Malus bei Bewegung + Angriff Aktionen
           + Mittellang: 🟥🟥⛈️(🗡️)
           | + AOE Schlag: (🔂️🔂️) ⚡️-🟥 → Angriff trifft +1 Ziel in Reichweite/+50% Wirkung gegen Handlanger (alle Aktionen werden gegen alle Zeile gleich   eingesetzt können sich einzelne Ziele gegen Aktionen wehren wirken diese nicht auf dieses Ziel)
           |   + Mittellang: ???
           + Lang: 🟪🟪
-            + Reichweite: (Echt-)Längere Waffe als längste Waffe des Gegner: Gegnerbewegung nach Nahkampf erzeugt IMMER -🟦🟥🟥 für Gegner
+            + Reichweite: (Echt-)Längere Waffe als längste Waffe des Gegner: Gegnerbewegung nach 'Nahkampf' erzeugt IMMER -🟦🟥🟥 für Gegner
               + Lang: ??
 
 ## Waffen Baum(Je waffe also z.b. Säbel parallel zu Keule...)
