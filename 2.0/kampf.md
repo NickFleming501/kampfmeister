@@ -255,6 +255,15 @@ Jeder Knoten kostet 1 Punkt(außer anders angegeben) & Erfordert alle Elternkote
     | + Schwere Panzerung(Harnisch/...): +⛈️(🛡️); 🟦; -⚔️(🛡️); Energielimit -2
     |   + Gewöhnung: kein -⚔️(🛡️); +⛈️(🛡️) wird zu +❓(🏔️⛈️)(🛡️)
     |     + Meisterung: Energielimit +1
+    + Bewegung
+    | + Bewegung 2
+    | + Bewegung 3
+    | + Bewegung 4
+    | + Bewegung 5
+    + Magie 🟥(nur wenn Arkanes>0)
+    | + Magische Schule(Zauber ähnlich wie Spezialangriffe)
+    | + Magische Stärke🟥
+    |   + Magische Stärke für Schule 🟥 -> bis zu 5x wählbar
     + 🟦🟥🟪🟪, Waffe: 🟥
       + Energie: Energielimit 3
       |+ Energie: (🔂️🔂️) -🟥/🟦 → ⚡️

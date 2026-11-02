@@ -40,6 +40,7 @@ Charaktererstellung
 🌑  Wissen/Intelligenz
 ☀️  Sinne('Weisheit')
 ❤️  Charisma - Interaktion mit anderen Lebewesen
+    Arkanes - Schaltet Magie frei(=0 bei Rassen ohne Magie)
 
 
 ### Skills
@@ -62,7 +63,13 @@ Beispiele für Skills:
 - Verführen/Bestechen
 - Kraft
 - Turnen/Balancieren
-- Suchen  
+- Suchen
+
+#### Spezielle Skills
+Es gibt spezielle Skills die nicht regulär gelevelt werden können. Diese können aber durch z.b. spezielle Ausrüstung erhöht werden:
+
+- 1 Wundskill pro regulärem Attribut(Summe der Attributspunkte die für Skills des Attributs benutzt wurden, aufgerundet)
+- Arkane Verteidigung(3 bei Arkanes 0, 2 bei Arkanes 1/2, 1 bei Arkanes 3/4, 0 bei Arkanes >4)
 
 ### Wunden
 
@@ -100,6 +107,33 @@ Wie eine normale Probe nur dass die Symbole nicht vom SL gewählt werden sondern
 1. Beide Würfeln (Attribut+Skill+Boni-Mali Würfel)
 2. Es werden von beiden jeweils die Würfel gezählt die der andere NICHT gewürfelt hat.
 3. Der mit mehr Erfolgen gewinnt.(bei Gleichstand keine Veränderung)(Für die Auswertung entspricht die Erfolgsdifferenz dem Würfelergibniss für eine normale Probe)
+
+Magische Effekte
+----------------
+
+### Langsame Zauber
+'Langsame' Zauber/Utility Zauber werden als Skills des Arkanen Attributs erworben. 1 Skillpunkt erlaubt 1 Zauber einer entsprechenden Schule.
+Anwendung von langsamen Zaubern ist äquivalent zur Anwendung von Skills und nicht für Kampfsituationen geeignet(weil langsam).
+
+Ein Zauber beschreibt eine bestimmte Anwendung der Magie die Effektgröße/stärke wird durch die Skillprobe bestimmt.
+
+Beispiel:
+- Skill: Elementarmagie 3
+- Zauber: Feuer anzünden, Feuer löschen, Trinkwasser beschwören
+- Effekt: Haus anzünden: ☀️ als Erfolg, Fakel anzünden: 🏔️❤️☀️⚔️ als Erfolg
+
+### Kampfzauber
+Kampfzauber sind besonders mächtig/im Kampf nutzbar und werden über spezielle Zweige im Kampfbaum freigeschaltet.
+
+Beispiele:
+- Feuerball
+- Gedankenkontrolle
+- ...
+
+### Verteidigung
+Falls Zauber eine physische Form erzeugen(z.b. Feuerball) kann diese durch 'normale' mittel geblockt werden(Konterskill/🟦)(+- mali auf die Verteidigung)
+
+Zauber die keine physische Form haben und auf Personen gerichtet sind werden IMMER gegen Arkanes+Arkane Verteidigung gewürfelt.
 
 {!kampf!}
 
